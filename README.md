@@ -21,7 +21,7 @@ Assemble the Ultraino driver board following <a href="www.instructables.com/Ultr
 
 
 ## License
-This work is licensed under a GPL v 2.0 License file present in the repo. Please contact innovation@cmu.edu if you would like another license for your use. Note that the GazeCapture dataset used for training the base model has a non-commercial license.
+This work is licensed under a GPL v 2.0 License file present in the repo. Please contact innovation@cmu.edu if you would like another license for your use.
 
 ## Reference
 Vivian Shen, Craig Shultz, and Chris Harrison. 2022. Mouth Haptics in VR Using a Headset Ultrasound Phased Array. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans, LA, USA) (CHI ’22). Association for Computing Machinery, New York, NY, USA, Article 275, 14 pages. https://doi.org/10.1145/3491102.3501960
