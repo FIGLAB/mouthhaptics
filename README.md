@@ -17,8 +17,12 @@ Assemble the Ultraino driver board following <a href="www.instructables.com/Ultr
 - First, determine the polarity of every transducer. You can do this with an oscilloscope + function generator or <a href="https://www.youtube.com/watch?v=0HaKv3aJQWA">a multimeter</a>.
 - Solder the female MOLEX connectors onto the PCB. You can use any combination of normal/right angle MOLEX connector.
 - Create ribbon cables with two male MOLEX ends, to connect the two PCBs.
-- Make sure the transducers are all 
+- Make sure the transducers are all the same polarity. (Tip: use marker to mark polarity of each transducer)
+- Insert all transducers into the holes - solder to attach.
+- Connect all the ribbon cablues between the driver board and the array.
 
+#### Step 3: Set up Unity Software
+Once you have the Unity hub installed, you should be able to just open the simulator unity project.
 
 ## License
 This work is licensed under a GPL v 2.0 License file present in the repo. Please contact innovation@cmu.edu if you would like another license for your use.
