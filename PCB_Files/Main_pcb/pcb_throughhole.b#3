@@ -1,0 +1,2382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.000123031496" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+</layers>
+<board>
+<plain>
+<wire x1="20.0201" y1="108.7438" x2="21.8216" y2="108.1125" width="0" layer="20"/>
+<wire x1="21.8216" y1="108.1125" x2="23.2888" y2="107.5376" width="0" layer="20"/>
+<wire x1="23.2888" y1="107.5376" x2="24.4736" y2="107.0109" width="0" layer="20"/>
+<wire x1="24.4736" y1="107.0109" x2="25.428" y2="106.5248" width="0" layer="20"/>
+<wire x1="25.428" y1="106.5248" x2="26.8535" y2="105.6423" width="0" layer="20"/>
+<wire x1="26.8535" y1="105.6423" x2="27.9762" y2="104.8278" width="0" layer="20"/>
+<wire x1="27.9762" y1="104.8278" x2="30.0474" y2="103.2898" width="0" layer="20"/>
+<wire x1="30.0474" y1="103.2898" x2="31.9407" y2="101.861" width="0" layer="20"/>
+<wire x1="31.9407" y1="101.861" x2="35.268" y2="99.3015" width="0" layer="20"/>
+<wire x1="35.268" y1="99.3015" x2="38.1071" y2="97.0894" width="0" layer="20"/>
+<wire x1="38.1071" y1="97.0894" x2="40.6064" y2="95.1651" width="0" layer="20"/>
+<wire x1="40.6064" y1="95.1651" x2="42.9147" y2="93.4688" width="0" layer="20"/>
+<wire x1="42.9147" y1="93.4688" x2="47.4897" y2="90.4486" width="0" layer="20"/>
+<wire x1="47.4897" y1="90.4486" x2="52.3654" y2="87.1856" width="0" layer="20"/>
+<wire x1="52.3654" y1="87.1856" x2="57.042" y2="83.7537" width="0" layer="20"/>
+<wire x1="57.042" y1="83.7537" x2="61.0379" y2="80.3645" width="0" layer="20"/>
+<wire x1="61.0379" y1="80.3645" x2="62.7404" y2="78.6643" width="0" layer="20"/>
+<wire x1="62.7404" y1="78.6643" x2="64.2324" y2="76.9454" width="0" layer="20"/>
+<wire x1="64.2324" y1="76.9454" x2="66.7057" y2="73.3936" width="0" layer="20"/>
+<wire x1="66.7057" y1="73.3936" x2="68.7875" y2="69.5929" width="0" layer="20"/>
+<wire x1="68.7875" y1="69.5929" x2="70.6302" y2="65.6741" width="0" layer="20"/>
+<wire x1="70.6302" y1="65.6741" x2="72.1849" y2="62.0171" width="0" layer="20"/>
+<wire x1="72.1849" y1="62.0171" x2="73.6733" y2="58.6214" width="0" layer="20"/>
+<wire x1="73.6733" y1="58.6214" x2="75.4296" y2="55.329" width="0" layer="20"/>
+<wire x1="75.4296" y1="55.329" x2="77.788" y2="51.9818" width="0" layer="20"/>
+<wire x1="77.788" y1="51.9818" x2="79.3028" y2="50.235" width="0" layer="20"/>
+<wire x1="79.3028" y1="50.235" x2="80.216" y2="49.3029" width="0" layer="20"/>
+<wire x1="80.216" y1="49.3029" x2="81.3227" y2="48.2792" width="0" layer="20"/>
+<wire x1="5.5562" y1="50.8" x2="5.4987" y2="57.0754" width="0" layer="20"/>
+<wire x1="5.4987" y1="57.0754" x2="5.3566" y2="63.0892" width="0" layer="20"/>
+<wire x1="5.3566" y1="63.0892" x2="5.1755" y2="68.8216" width="0" layer="20"/>
+<wire x1="5.1755" y1="68.8216" x2="5.0009" y2="74.2528" width="0" layer="20"/>
+<wire x1="5.0009" y1="74.2528" x2="4.8785" y2="79.3632" width="0" layer="20"/>
+<wire x1="4.8785" y1="79.3632" x2="4.854" y2="84.1328" width="0" layer="20"/>
+<wire x1="4.854" y1="84.1328" x2="4.9728" y2="88.5421" width="0" layer="20"/>
+<wire x1="4.9728" y1="88.5421" x2="5.2806" y2="92.5711" width="0" layer="20"/>
+<wire x1="5.2806" y1="92.5711" x2="5.8231" y2="96.2001" width="0" layer="20"/>
+<wire x1="5.8231" y1="96.2001" x2="6.6458" y2="99.4094" width="0" layer="20"/>
+<wire x1="6.6458" y1="99.4094" x2="7.7942" y2="102.1792" width="0" layer="20"/>
+<wire x1="7.7942" y1="102.1792" x2="9.3142" y2="104.4897" width="0" layer="20"/>
+<wire x1="9.3142" y1="104.4897" x2="11.2511" y2="106.3212" width="0" layer="20"/>
+<wire x1="11.2511" y1="106.3212" x2="13.6507" y2="107.6539" width="0" layer="20"/>
+<wire x1="13.6507" y1="107.6539" x2="16.5585" y2="108.468" width="0" layer="20"/>
+<wire x1="16.5585" y1="108.468" x2="20.0201" y2="108.7438" width="0" layer="20"/>
+<wire x1="16.6687" y1="29.3688" x2="15.3448" y2="30.7129" width="0" layer="20"/>
+<wire x1="15.3448" y1="30.7129" x2="13.8162" y2="32.3825" width="0" layer="20"/>
+<wire x1="13.8162" y1="32.3825" x2="12.176" y2="34.4057" width="0" layer="20"/>
+<wire x1="12.176" y1="34.4057" x2="10.5172" y2="36.8102" width="0" layer="20"/>
+<wire x1="10.5172" y1="36.8102" x2="8.9328" y2="39.6239" width="0" layer="20"/>
+<wire x1="8.9328" y1="39.6239" x2="7.5158" y2="42.8749" width="0" layer="20"/>
+<wire x1="7.5158" y1="42.8749" x2="6.3593" y2="46.591" width="0" layer="20"/>
+<wire x1="6.3593" y1="46.591" x2="5.5562" y2="50.8" width="0" layer="20"/>
+<wire x1="82.6776" y1="0" x2="81.1072" y2="0.1112" width="0" layer="20"/>
+<wire x1="81.1072" y1="0.1112" x2="79.7623" y2="0.2086" width="0" layer="20"/>
+<wire x1="79.7623" y1="0.2086" x2="77.6259" y2="0.3717" width="0" layer="20"/>
+<wire x1="77.6259" y1="0.3717" x2="76.0227" y2="0.5076" width="0" layer="20"/>
+<wire x1="76.0227" y1="0.5076" x2="74.7066" y2="0.6349" width="0" layer="20"/>
+<wire x1="74.7066" y1="0.6349" x2="69.6173" y2="1.2825" width="0" layer="20"/>
+<wire x1="69.6173" y1="1.2825" x2="64.2958" y2="2.3019" width="0" layer="20"/>
+<wire x1="64.2958" y1="2.3019" x2="58.6714" y2="3.8537" width="0" layer="20"/>
+<wire x1="58.6714" y1="3.8537" x2="55.7236" y2="4.8796" width="0" layer="20"/>
+<wire x1="55.7236" y1="4.8796" x2="52.6735" y2="6.0989" width="0" layer="20"/>
+<wire x1="52.6735" y1="6.0989" x2="49.5125" y2="7.5317" width="0" layer="20"/>
+<wire x1="49.5125" y1="7.5317" x2="46.2316" y2="9.198" width="0" layer="20"/>
+<wire x1="46.2316" y1="9.198" x2="42.8221" y2="11.1181" width="0" layer="20"/>
+<wire x1="42.8221" y1="11.1181" x2="39.2736" y2="13.3128" width="0" layer="20"/>
+<wire x1="39.2736" y1="13.3128" x2="38.303" y2="13.9387" width="0" layer="20"/>
+<wire x1="38.303" y1="13.9387" x2="37.1356" y2="14.6821" width="0" layer="20"/>
+<wire x1="37.1356" y1="14.6821" x2="35.6396" y2="15.6127" width="0" layer="20"/>
+<wire x1="35.6396" y1="15.6127" x2="33.6826" y2="16.8004" width="0" layer="20"/>
+<wire x1="33.6826" y1="16.8004" x2="31.1328" y2="18.3151" width="0" layer="20"/>
+<wire x1="31.1328" y1="18.3151" x2="29.5942" y2="19.2169" width="0" layer="20"/>
+<wire x1="29.5942" y1="19.2169" x2="27.8519" y2="20.2383" width="0" layer="20"/>
+<wire x1="27.8519" y1="20.2383" x2="25.8178" y2="21.5308" width="0" layer="20"/>
+<wire x1="25.8178" y1="21.5308" x2="23.3624" y2="23.3273" width="0" layer="20"/>
+<wire x1="23.3624" y1="23.3273" x2="21.9362" y2="24.4877" width="0" layer="20"/>
+<wire x1="21.9362" y1="24.4877" x2="20.3561" y2="25.8619" width="0" layer="20"/>
+<wire x1="20.3561" y1="25.8619" x2="18.6056" y2="27.4791" width="0" layer="20"/>
+<wire x1="18.6056" y1="27.4791" x2="16.6687" y2="29.3688" width="0" layer="20"/>
+<wire x1="98.5526" y1="0" x2="82.6776" y2="0" width="0" layer="20"/>
+<wire x1="163.3652" y1="26.476" x2="161.6277" y2="24.8397" width="0" layer="20"/>
+<wire x1="161.6277" y1="24.8397" x2="159.5204" y2="23.2017" width="0" layer="20"/>
+<wire x1="159.5204" y1="23.2017" x2="154.6804" y2="20.0113" width="0" layer="20"/>
+<wire x1="154.6804" y1="20.0113" x2="149.8121" y2="17.0866" width="0" layer="20"/>
+<wire x1="149.8121" y1="17.0866" x2="147.6439" y2="15.7752" width="0" layer="20"/>
+<wire x1="147.6439" y1="15.7752" x2="145.6751" y2="14.5648" width="0" layer="20"/>
+<wire x1="145.6751" y1="14.5648" x2="142.1908" y2="12.4029" width="0" layer="20"/>
+<wire x1="142.1908" y1="12.4029" x2="139.0696" y2="10.512" width="0" layer="20"/>
+<wire x1="139.0696" y1="10.512" x2="132.9269" y2="7.2454" width="0" layer="20"/>
+<wire x1="132.9269" y1="7.2454" x2="126.4619" y2="4.5665" width="0" layer="20"/>
+<wire x1="126.4619" y1="4.5665" x2="123.0672" y2="3.4534" width="0" layer="20"/>
+<wire x1="123.0672" y1="3.4534" x2="119.5433" y2="2.4948" width="0" layer="20"/>
+<wire x1="119.5433" y1="2.4948" x2="115.8742" y2="1.6931" width="0" layer="20"/>
+<wire x1="115.8742" y1="1.6931" x2="112.0439" y2="1.0509" width="0" layer="20"/>
+<wire x1="112.0439" y1="1.0509" x2="108.0367" y2="0.5709" width="0" layer="20"/>
+<wire x1="108.0367" y1="0.5709" x2="106.9101" y2="0.472" width="0" layer="20"/>
+<wire x1="106.9101" y1="0.472" x2="105.2684" y2="0.359" width="0" layer="20"/>
+<wire x1="105.2684" y1="0.359" x2="104.1069" y2="0.2902" width="0" layer="20"/>
+<wire x1="104.1069" y1="0.2902" x2="102.6398" y2="0.2093" width="0" layer="20"/>
+<wire x1="102.6398" y1="0.2093" x2="100.808" y2="0.1135" width="0" layer="20"/>
+<wire x1="100.808" y1="0.1135" x2="98.5526" y2="0" width="0" layer="20"/>
+<wire x1="177.4866" y1="50.8" x2="176.6014" y2="46.4225" width="0" layer="20"/>
+<wire x1="176.6014" y1="46.4225" x2="175.4889" y2="42.7181" width="0" layer="20"/>
+<wire x1="175.4889" y1="42.7181" x2="174.1369" y2="39.5412" width="0" layer="20"/>
+<wire x1="174.1369" y1="39.5412" x2="172.5334" y2="36.7462" width="0" layer="20"/>
+<wire x1="172.5334" y1="36.7462" x2="170.6665" y2="34.1878" width="0" layer="20"/>
+<wire x1="170.6665" y1="34.1878" x2="168.5242" y2="31.7202" width="0" layer="20"/>
+<wire x1="168.5242" y1="31.7202" x2="166.0944" y2="29.1982" width="0" layer="20"/>
+<wire x1="166.0944" y1="29.1982" x2="163.3652" y2="26.476" width="0" layer="20"/>
+<wire x1="162.9611" y1="108.7438" x2="166.2299" y2="108.5115" width="0" layer="20"/>
+<wire x1="166.2299" y1="108.5115" x2="169.0083" y2="107.8164" width="0" layer="20"/>
+<wire x1="169.0083" y1="107.8164" x2="171.3341" y2="106.6607" width="0" layer="20"/>
+<wire x1="171.3341" y1="106.6607" x2="173.2447" y2="105.0468" width="0" layer="20"/>
+<wire x1="173.2447" y1="105.0468" x2="174.778" y2="102.9771" width="0" layer="20"/>
+<wire x1="174.778" y1="102.9771" x2="175.9713" y2="100.4539" width="0" layer="20"/>
+<wire x1="175.9713" y1="100.4539" x2="176.8624" y2="97.4796" width="0" layer="20"/>
+<wire x1="176.8624" y1="97.4796" x2="177.4888" y2="94.0565" width="0" layer="20"/>
+<wire x1="177.4888" y1="94.0565" x2="177.8883" y2="90.1871" width="0" layer="20"/>
+<wire x1="177.8883" y1="90.1871" x2="178.0983" y2="85.8736" width="0" layer="20"/>
+<wire x1="178.0983" y1="85.8736" x2="178.1565" y2="81.1184" width="0" layer="20"/>
+<wire x1="178.1565" y1="81.1184" x2="178.1004" y2="75.9239" width="0" layer="20"/>
+<wire x1="178.1004" y1="75.9239" x2="177.9678" y2="70.2925" width="0" layer="20"/>
+<wire x1="177.9678" y1="70.2925" x2="177.7963" y2="64.2264" width="0" layer="20"/>
+<wire x1="177.7963" y1="64.2264" x2="177.6233" y2="57.7282" width="0" layer="20"/>
+<wire x1="177.6233" y1="57.7282" x2="177.4866" y2="50.8" width="0" layer="20"/>
+<wire x1="150.4577" y1="101.4617" x2="153.3743" y2="103.6909" width="0" layer="20"/>
+<wire x1="153.3743" y1="103.6909" x2="156.215" y2="105.6759" width="0" layer="20"/>
+<wire x1="156.215" y1="105.6759" x2="159.3028" y2="107.3744" width="0" layer="20"/>
+<wire x1="159.3028" y1="107.3744" x2="161.0405" y2="108.1029" width="0" layer="20"/>
+<wire x1="161.0405" y1="108.1029" x2="162.9611" y2="108.7438" width="0" layer="20"/>
+<wire x1="91.4559" y1="44.8469" x2="92.9189" y2="44.9639" width="0" layer="20"/>
+<wire x1="92.9189" y1="44.9639" x2="94.5527" y2="45.2357" width="0" layer="20"/>
+<wire x1="94.5527" y1="45.2357" x2="97.9398" y2="46.2168" width="0" layer="20"/>
+<wire x1="97.9398" y1="46.2168" x2="99.4965" y2="46.9128" width="0" layer="20"/>
+<wire x1="99.4965" y1="46.9128" x2="100.8554" y2="47.7313" width="0" layer="20"/>
+<wire x1="100.8554" y1="47.7313" x2="103.0553" y2="49.6032" width="0" layer="20"/>
+<wire x1="103.0553" y1="49.6032" x2="104.7854" y2="51.548" width="0" layer="20"/>
+<wire x1="104.7854" y1="51.548" x2="106.219" y2="53.4042" width="0" layer="20"/>
+<wire x1="106.219" y1="53.4042" x2="107.409" y2="55.1761" width="0" layer="20"/>
+<wire x1="107.409" y1="55.1761" x2="108.4" y2="56.879" width="0" layer="20"/>
+<wire x1="108.4" y1="56.879" x2="109.964" y2="60.1397" width="0" layer="20"/>
+<wire x1="109.964" y1="60.1397" x2="111.2679" y2="63.3099" width="0" layer="20"/>
+<wire x1="111.2679" y1="63.3099" x2="112.6163" y2="66.5079" width="0" layer="20"/>
+<wire x1="112.6163" y1="66.5079" x2="114.2242" y2="69.842" width="0" layer="20"/>
+<wire x1="114.2242" y1="69.842" x2="116.2172" y2="73.3113" width="0" layer="20"/>
+<wire x1="116.2172" y1="73.3113" x2="118.5669" y2="76.7075" width="0" layer="20"/>
+<wire x1="118.5669" y1="76.7075" x2="121.2273" y2="79.7987" width="0" layer="20"/>
+<wire x1="121.2273" y1="79.7987" x2="124.3159" y2="82.5675" width="0" layer="20"/>
+<wire x1="124.3159" y1="82.5675" x2="126.2074" y2="84.022" width="0" layer="20"/>
+<wire x1="126.2074" y1="84.022" x2="128.4488" y2="85.6498" width="0" layer="20"/>
+<wire x1="128.4488" y1="85.6498" x2="131.1104" y2="87.5274" width="0" layer="20"/>
+<wire x1="131.1104" y1="87.5274" x2="134.1295" y2="89.598" width="0" layer="20"/>
+<wire x1="134.1295" y1="89.598" x2="137.3903" y2="91.7542" width="0" layer="20"/>
+<wire x1="137.3903" y1="91.7542" x2="140.9192" y2="94.1384" width="0" layer="20"/>
+<wire x1="140.9192" y1="94.1384" x2="142.8527" y2="95.5585" width="0" layer="20"/>
+<wire x1="142.8527" y1="95.5585" x2="144.9988" y2="97.2116" width="0" layer="20"/>
+<wire x1="144.9988" y1="97.2116" x2="147.4896" y2="99.1588" width="0" layer="20"/>
+<wire x1="147.4896" y1="99.1588" x2="150.4577" y2="101.4617" width="0" layer="20"/>
+<wire x1="81.3227" y1="48.2792" x2="82.429" y2="47.4881" width="0" layer="20"/>
+<wire x1="82.429" y1="47.4881" x2="83.7204" y2="46.7972" width="0" layer="20"/>
+<wire x1="83.7204" y1="46.7972" x2="86.5797" y2="45.7224" width="0" layer="20"/>
+<wire x1="86.5797" y1="45.7224" x2="89.3438" y2="45.0679" width="0" layer="20"/>
+<wire x1="89.3438" y1="45.0679" x2="90.5162" y2="44.9024" width="0" layer="20"/>
+<wire x1="90.5162" y1="44.9024" x2="91.4559" y2="44.8469" width="0" layer="20"/>
+</plain>
+<libraries>
+<library name="molex_16way">
+<packages>
+<package name="CONN_70246-1201_MOL">
+<pad name="1" x="0" y="0" drill="1.1938" diameter="1.7018"/>
+<pad name="2" x="0" y="2.54" drill="1.1938" diameter="1.7018"/>
+<pad name="3" x="2.54" y="0" drill="1.1938" diameter="1.7018"/>
+<pad name="4" x="2.54" y="2.54" drill="1.1938" diameter="1.7018"/>
+<pad name="5" x="5.08" y="0" drill="1.1938" diameter="1.7018"/>
+<pad name="6" x="5.08" y="2.54" drill="1.1938" diameter="1.7018"/>
+<pad name="7" x="7.62" y="0" drill="1.1938" diameter="1.7018"/>
+<pad name="8" x="7.62" y="2.54" drill="1.1938" diameter="1.7018"/>
+<pad name="9" x="10.16" y="0" drill="1.1938" diameter="1.7018"/>
+<pad name="10" x="10.16" y="2.54" drill="1.1938" diameter="1.7018"/>
+<pad name="11" x="12.7" y="0" drill="1.1938" diameter="1.7018"/>
+<pad name="12" x="12.7" y="2.54" drill="1.1938" diameter="1.7018"/>
+<pad name="13" x="15.24" y="0" drill="1.1938" diameter="1.7018"/>
+<pad name="14" x="15.24" y="2.54" drill="1.1938" diameter="1.7018"/>
+<pad name="15" x="17.78" y="0" drill="1.1938" diameter="1.7018"/>
+<pad name="16" x="17.78" y="2.54" drill="1.1938" diameter="1.7018"/>
+<wire x1="-5.207" y1="-3.302" x2="22.987" y2="-3.302" width="0.1524" layer="21"/>
+<wire x1="22.987" y1="-3.302" x2="22.987" y2="5.842" width="0.1524" layer="21"/>
+<wire x1="22.987" y1="5.842" x2="-5.207" y2="5.842" width="0.1524" layer="21"/>
+<wire x1="-5.207" y1="5.842" x2="-5.207" y2="-3.302" width="0.1524" layer="21"/>
+<wire x1="-5.461" y1="0" x2="-6.223" y2="0" width="0.508" layer="21" curve="-180"/>
+<wire x1="-6.223" y1="0" x2="-5.461" y2="0" width="0.508" layer="21" curve="-180"/>
+<wire x1="-5.08" y1="-3.175" x2="22.86" y2="-3.175" width="0.1524" layer="51"/>
+<wire x1="22.86" y1="-3.175" x2="22.86" y2="5.715" width="0.1524" layer="51"/>
+<wire x1="22.86" y1="5.715" x2="-5.08" y2="5.715" width="0.1524" layer="51"/>
+<wire x1="-5.08" y1="5.715" x2="-5.08" y2="-3.175" width="0.1524" layer="51"/>
+<wire x1="0.381" y1="-1.905" x2="-0.381" y2="-1.905" width="0.508" layer="51" curve="-180"/>
+<wire x1="-0.381" y1="-1.905" x2="0.381" y2="-1.905" width="0.508" layer="51" curve="-180"/>
+<wire x1="-5.461" y1="0" x2="-6.223" y2="0" width="0.508" layer="22" curve="-180"/>
+<wire x1="-6.223" y1="0" x2="-5.461" y2="0" width="0.508" layer="22" curve="-180"/>
+<text x="5.6134" y="0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="7.1628" y="0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+</package>
+</packages>
+</library>
+<library name="MA40S4S">
+<packages>
+<package name="XDCR_MA40S4S">
+<text x="-3.75" y="5.4" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.75" y="-5.5" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<circle x="0" y="0" radius="4.95" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="4.95" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="5.2" width="0.05" layer="39"/>
+<pad name="1" x="-2.5" y="0" drill="1.2" diameter="1.8"/>
+<pad name="2" x="2.5" y="0" drill="1.2" diameter="1.8"/>
+</package>
+</packages>
+</library>
+</libraries>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+</class>
+</classes>
+<designrules name="default *">
+<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+Die Standard-Design-Rules sind so gewählt, dass sie für 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.</description>
+<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+The default Design Rules have been set to cover
+a wide range of applications. Your particular design
+may have different requirements, so please make the
+necessary adjustments and save your customized
+design rules under a new name.</description>
+<param name="layerSetup" value="(1*16)"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="6mil"/>
+<param name="mdWirePad" value="6mil"/>
+<param name="mdWireVia" value="6mil"/>
+<param name="mdPadPad" value="6mil"/>
+<param name="mdPadVia" value="6mil"/>
+<param name="mdViaVia" value="6mil"/>
+<param name="mdSmdPad" value="6mil"/>
+<param name="mdSmdVia" value="6mil"/>
+<param name="mdSmdSmd" value="6mil"/>
+<param name="mdViaViaSameLayer" value="6mil"/>
+<param name="mnLayersViaInSmd" value="2"/>
+<param name="mdCopperDimension" value="10mil"/>
+<param name="mdDrill" value="6mil"/>
+<param name="mdSmdStop" value="0mil"/>
+<param name="msWidth" value="6mil"/>
+<param name="msDrill" value="0.35mm"/>
+<param name="msMicroVia" value="9.99mm"/>
+<param name="msBlindViaRatio" value="0.5"/>
+<param name="rvPadTop" value="0.25"/>
+<param name="rvPadInner" value="0.25"/>
+<param name="rvPadBottom" value="0.25"/>
+<param name="rvViaOuter" value="0.25"/>
+<param name="rvViaInner" value="0.25"/>
+<param name="rvMicroViaOuter" value="0.25"/>
+<param name="rvMicroViaInner" value="0.25"/>
+<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="psTop" value="-1"/>
+<param name="psBottom" value="-1"/>
+<param name="psFirst" value="-1"/>
+<param name="psElongationLong" value="100"/>
+<param name="psElongationOffset" value="100"/>
+<param name="mvStopFrame" value="1"/>
+<param name="mvCreamFrame" value="0"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinCreamFrame" value="0mil"/>
+<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlViaStopLimit" value="0mil"/>
+<param name="srRoundness" value="0"/>
+<param name="srMinRoundness" value="0mil"/>
+<param name="srMaxRoundness" value="0mil"/>
+<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalsForVias" value="0"/>
+<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpGapFactor" value="2.5"/>
+<param name="checkAngle" value="0"/>
+<param name="checkFont" value="1"/>
+<param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
+<param name="useDiameter" value="13"/>
+<param name="maxErrors" value="50"/>
+</designrules>
+<autorouter>
+<pass name="Default">
+<param name="RoutingGrid" value="6.25mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="2"/>
+<param name="TopRouterVariant" value="1"/>
+<param name="tpViaShape" value="round"/>
+<param name="PrefDir.1" value="0"/>
+<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.3" value="0"/>
+<param name="PrefDir.4" value="0"/>
+<param name="PrefDir.5" value="0"/>
+<param name="PrefDir.6" value="0"/>
+<param name="PrefDir.7" value="0"/>
+<param name="PrefDir.8" value="0"/>
+<param name="PrefDir.9" value="0"/>
+<param name="PrefDir.10" value="0"/>
+<param name="PrefDir.11" value="0"/>
+<param name="PrefDir.12" value="0"/>
+<param name="PrefDir.13" value="0"/>
+<param name="PrefDir.14" value="0"/>
+<param name="PrefDir.15" value="0"/>
+<param name="PrefDir.16" value="a"/>
+<param name="cfVia" value="8"/>
+<param name="cfNonPref" value="5"/>
+<param name="cfChangeDir" value="2"/>
+<param name="cfOrthStep" value="2"/>
+<param name="cfDiagStep" value="3"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="1"/>
+<param name="cfMalusStep" value="1"/>
+<param name="cfPadImpact" value="4"/>
+<param name="cfSmdImpact" value="4"/>
+<param name="cfBusImpact" value="0"/>
+<param name="cfHugging" value="3"/>
+<param name="cfAvoid" value="4"/>
+<param name="cfPolygon" value="10"/>
+<param name="cfBase.1" value="0"/>
+<param name="cfBase.2" value="1"/>
+<param name="cfBase.3" value="1"/>
+<param name="cfBase.4" value="1"/>
+<param name="cfBase.5" value="1"/>
+<param name="cfBase.6" value="1"/>
+<param name="cfBase.7" value="1"/>
+<param name="cfBase.8" value="1"/>
+<param name="cfBase.9" value="1"/>
+<param name="cfBase.10" value="1"/>
+<param name="cfBase.11" value="1"/>
+<param name="cfBase.12" value="1"/>
+<param name="cfBase.13" value="1"/>
+<param name="cfBase.14" value="1"/>
+<param name="cfBase.15" value="1"/>
+<param name="cfBase.16" value="0"/>
+<param name="mnVias" value="20"/>
+<param name="mnSegments" value="9999"/>
+<param name="mnExtdSteps" value="9999"/>
+<param name="mnRipupLevel" value="10"/>
+<param name="mnRipupSteps" value="100"/>
+<param name="mnRipupTotal" value="100"/>
+</pass>
+<pass name="Follow-me" refer="Default" active="yes">
+</pass>
+<pass name="Busses" refer="Default" active="yes">
+<param name="cfNonPref" value="4"/>
+<param name="cfBusImpact" value="4"/>
+<param name="cfHugging" value="0"/>
+<param name="mnVias" value="0"/>
+</pass>
+<pass name="Route" refer="Default" active="yes">
+</pass>
+<pass name="Optimize1" refer="Default" active="yes">
+<param name="cfVia" value="99"/>
+<param name="cfExtdStep" value="10"/>
+<param name="cfHugging" value="1"/>
+<param name="mnExtdSteps" value="1"/>
+<param name="mnRipupLevel" value="0"/>
+</pass>
+<pass name="Optimize2" refer="Optimize1" active="yes">
+<param name="cfNonPref" value="0"/>
+<param name="cfChangeDir" value="6"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="2"/>
+<param name="cfMalusStep" value="2"/>
+<param name="cfPadImpact" value="2"/>
+<param name="cfSmdImpact" value="2"/>
+<param name="cfHugging" value="0"/>
+</pass>
+<pass name="Optimize3" refer="Optimize2" active="yes">
+<param name="cfChangeDir" value="8"/>
+<param name="cfPadImpact" value="0"/>
+<param name="cfSmdImpact" value="0"/>
+</pass>
+<pass name="Optimize4" refer="Optimize3" active="yes">
+<param name="cfChangeDir" value="25"/>
+</pass>
+</autorouter>
+<elements>
+<element name="J1" library="molex_16way" package="CONN_70246-1201_MOL" value="70246-1201" x="158.4198" y="96.1644" smashed="yes" rot="R270">
+<attribute name="BUILT_BY" value="EMA_Cory" x="158.4198" y="96.1644" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="158.4198" y="96.1644" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DATASHEET" value="https://www.molex.com/pdm_docs/sd/702461602_sd.pdf" x="158.4198" y="96.1644" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="70246-1201" x="158.4198" y="96.1644" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="159.0548" y="90.551" size="1.27" layer="25" ratio="6" rot="SR270"/>
+<attribute name="SOURCELIBRARY" value="Add_to_database_2020-11-05" x="158.4198" y="96.1644" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="159.0548" y="89.0016" size="1.27" layer="27" ratio="6" rot="SR270"/>
+<attribute name="VENDOR" value="Molex Connector Corporation" x="158.4198" y="96.1644" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="J2" library="molex_16way" package="CONN_70246-1201_MOL" value="70246-1201" x="158.3944" y="66.548" smashed="yes" rot="R270">
+<attribute name="BUILT_BY" value="EMA_Cory" x="158.3944" y="66.548" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="158.3944" y="66.548" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DATASHEET" value="https://www.molex.com/pdm_docs/sd/702461602_sd.pdf" x="158.3944" y="66.548" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="70246-1201" x="158.3944" y="66.548" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="159.0294" y="60.9346" size="1.27" layer="25" ratio="6" rot="SR270"/>
+<attribute name="SOURCELIBRARY" value="Add_to_database_2020-11-05" x="158.3944" y="66.548" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="159.0294" y="59.3852" size="1.27" layer="27" ratio="6" rot="SR270"/>
+<attribute name="VENDOR" value="Molex Connector Corporation" x="158.3944" y="66.548" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="J3" library="molex_16way" package="CONN_70246-1201_MOL" value="70246-1201" x="169.0116" y="66.548" smashed="yes" rot="R270">
+<attribute name="BUILT_BY" value="EMA_Cory" x="169.0116" y="66.548" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="169.0116" y="66.548" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DATASHEET" value="https://www.molex.com/pdm_docs/sd/702461602_sd.pdf" x="169.0116" y="66.548" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="70246-1201" x="169.0116" y="66.548" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="169.6466" y="60.9346" size="1.27" layer="25" ratio="6" rot="SR270"/>
+<attribute name="SOURCELIBRARY" value="Add_to_database_2020-11-05" x="169.0116" y="66.548" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="169.6466" y="59.3852" size="1.27" layer="27" ratio="6" rot="SR270"/>
+<attribute name="VENDOR" value="Molex Connector Corporation" x="169.0116" y="66.548" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="J4" library="molex_16way" package="CONN_70246-1201_MOL" value="70246-1201" x="169.1132" y="96.266" smashed="yes" rot="R270">
+<attribute name="BUILT_BY" value="EMA_Cory" x="169.1132" y="96.266" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="169.1132" y="96.266" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DATASHEET" value="https://www.molex.com/pdm_docs/sd/702461602_sd.pdf" x="169.1132" y="96.266" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="70246-1201" x="169.1132" y="96.266" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="169.7482" y="90.6526" size="1.27" layer="25" ratio="6" rot="SR270"/>
+<attribute name="SOURCELIBRARY" value="Add_to_database_2020-11-05" x="169.1132" y="96.266" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="169.7482" y="89.1032" size="1.27" layer="27" ratio="6" rot="SR270"/>
+<attribute name="VENDOR" value="Molex Connector Corporation" x="169.1132" y="96.266" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="J5" library="molex_16way" package="CONN_70246-1201_MOL" value="70246-1201" x="21.6408" y="66.7766" smashed="yes" rot="R270">
+<attribute name="BUILT_BY" value="EMA_Cory" x="21.6408" y="66.7766" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="21.6408" y="66.7766" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DATASHEET" value="https://www.molex.com/pdm_docs/sd/702461602_sd.pdf" x="21.6408" y="66.7766" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="70246-1201" x="21.6408" y="66.7766" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="22.2758" y="61.1632" size="1.27" layer="25" ratio="6" rot="SR270"/>
+<attribute name="SOURCELIBRARY" value="Add_to_database_2020-11-05" x="21.6408" y="66.7766" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="22.2758" y="59.6138" size="1.27" layer="27" ratio="6" rot="SR270"/>
+<attribute name="VENDOR" value="Molex Connector Corporation" x="21.6408" y="66.7766" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="J6" library="molex_16way" package="CONN_70246-1201_MOL" value="70246-1201" x="21.7424" y="96.5454" smashed="yes" rot="R270">
+<attribute name="BUILT_BY" value="EMA_Cory" x="21.7424" y="96.5454" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="21.7424" y="96.5454" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DATASHEET" value="https://www.molex.com/pdm_docs/sd/702461602_sd.pdf" x="21.7424" y="96.5454" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="70246-1201" x="21.7424" y="96.5454" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="22.3774" y="90.932" size="1.27" layer="25" ratio="6" rot="SR270"/>
+<attribute name="SOURCELIBRARY" value="Add_to_database_2020-11-05" x="21.7424" y="96.5454" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="22.3774" y="89.3826" size="1.27" layer="27" ratio="6" rot="SR270"/>
+<attribute name="VENDOR" value="Molex Connector Corporation" x="21.7424" y="96.5454" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="J7" library="molex_16way" package="CONN_70246-1201_MOL" value="70246-1201" x="11.6586" y="96.52" smashed="yes" rot="R270">
+<attribute name="BUILT_BY" value="EMA_Cory" x="11.6586" y="96.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="11.6586" y="96.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DATASHEET" value="https://www.molex.com/pdm_docs/sd/702461602_sd.pdf" x="11.6586" y="96.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="70246-1201" x="11.6586" y="96.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="12.2936" y="90.9066" size="1.27" layer="25" ratio="6" rot="SR270"/>
+<attribute name="SOURCELIBRARY" value="Add_to_database_2020-11-05" x="11.6586" y="96.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="12.2936" y="89.3572" size="1.27" layer="27" ratio="6" rot="SR270"/>
+<attribute name="VENDOR" value="Molex Connector Corporation" x="11.6586" y="96.52" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="J8" library="molex_16way" package="CONN_70246-1201_MOL" value="70246-1201" x="11.6586" y="66.7512" smashed="yes" rot="R270">
+<attribute name="BUILT_BY" value="EMA_Cory" x="11.6586" y="66.7512" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="11.6586" y="66.7512" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DATASHEET" value="https://www.molex.com/pdm_docs/sd/702461602_sd.pdf" x="11.6586" y="66.7512" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="70246-1201" x="11.6586" y="66.7512" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="12.2936" y="61.1378" size="1.27" layer="25" ratio="6" rot="SR270"/>
+<attribute name="SOURCELIBRARY" value="Add_to_database_2020-11-05" x="11.6586" y="66.7512" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="12.2936" y="59.5884" size="1.27" layer="27" ratio="6" rot="SR270"/>
+<attribute name="VENDOR" value="Molex Connector Corporation" x="11.6586" y="66.7512" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="LS1" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="140.1252125" y="83.679740625" smashed="yes" rot="R20">
+<attribute name="AVAILABILITY" value="In Stock" x="140.1252125" y="83.679740625" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="140.1252125" y="83.679740625" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="MF" value="Murata" x="140.1252125" y="83.679740625" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="MP" value="MA40S4S" x="140.1252125" y="83.679740625" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="NAME" x="134.75445625" y="87.471503125" size="1.27" layer="25" rot="R20"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="140.1252125" y="83.679740625" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="PRICE" value="None" x="140.1252125" y="83.679740625" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="140.1252125" y="83.679740625" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="VALUE" x="138.482475" y="77.228853125" size="1.27" layer="27" rot="R20" align="top-left"/>
+</element>
+<element name="LS2" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="149.595159375" y="90.38506875" smashed="yes" rot="R40">
+<attribute name="AVAILABILITY" value="In Stock" x="149.595159375" y="90.38506875" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="149.595159375" y="90.38506875" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="MF" value="Murata" x="149.595159375" y="90.38506875" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="MP" value="MA40S4S" x="149.595159375" y="90.38506875" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="NAME" x="143.2514375" y="92.111253125" size="1.27" layer="25" rot="R40"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="149.595159375" y="90.38506875" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="PRICE" value="None" x="149.595159375" y="90.38506875" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="149.595159375" y="90.38506875" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="VALUE" x="150.257821875" y="83.76136875" size="1.27" layer="27" rot="R40" align="top-left"/>
+</element>
+<element name="LS3" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="140.1252125" y="71.673946875" smashed="yes" rot="R20">
+<attribute name="AVAILABILITY" value="In Stock" x="140.1252125" y="71.673946875" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="140.1252125" y="71.673946875" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="MF" value="Murata" x="140.1252125" y="71.673946875" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="MP" value="MA40S4S" x="140.1252125" y="71.673946875" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="NAME" x="134.75445625" y="75.465709375" size="1.27" layer="25" rot="R20"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="140.1252125" y="71.673946875" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="PRICE" value="None" x="140.1252125" y="71.673946875" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="140.1252125" y="71.673946875" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="VALUE" x="138.482475" y="65.223059375" size="1.27" layer="27" rot="R20" align="top-left"/>
+</element>
+<element name="LS4" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="149.595159375" y="77.858440625" smashed="yes" rot="R40">
+<attribute name="AVAILABILITY" value="In Stock" x="149.595159375" y="77.858440625" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="149.595159375" y="77.858440625" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="MF" value="Murata" x="149.595159375" y="77.858440625" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="MP" value="MA40S4S" x="149.595159375" y="77.858440625" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="NAME" x="143.2514375" y="79.584625" size="1.27" layer="25" rot="R40"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="149.595159375" y="77.858440625" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="PRICE" value="None" x="149.595159375" y="77.858440625" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="149.595159375" y="77.858440625" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="VALUE" x="150.257821875" y="71.234740625" size="1.27" layer="27" rot="R40" align="top-left"/>
+</element>
+<element name="LS5" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="140.1252125" y="59.668153125" smashed="yes" rot="R20">
+<attribute name="AVAILABILITY" value="In Stock" x="140.1252125" y="59.668153125" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="140.1252125" y="59.668153125" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="MF" value="Murata" x="140.1252125" y="59.668153125" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="MP" value="MA40S4S" x="140.1252125" y="59.668153125" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="NAME" x="134.75445625" y="63.459915625" size="1.27" layer="25" rot="R20"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="140.1252125" y="59.668153125" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="PRICE" value="None" x="140.1252125" y="59.668153125" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="140.1252125" y="59.668153125" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="VALUE" x="138.482475" y="53.217265625" size="1.27" layer="27" rot="R20" align="top-left"/>
+</element>
+<element name="LS6" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="149.595159375" y="65.3318125" smashed="yes" rot="R40">
+<attribute name="AVAILABILITY" value="In Stock" x="149.595159375" y="65.3318125" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="149.595159375" y="65.3318125" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="MF" value="Murata" x="149.595159375" y="65.3318125" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="MP" value="MA40S4S" x="149.595159375" y="65.3318125" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="NAME" x="143.2514375" y="67.057996875" size="1.27" layer="25" rot="R40"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="149.595159375" y="65.3318125" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="PRICE" value="None" x="149.595159375" y="65.3318125" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="149.595159375" y="65.3318125" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="VALUE" x="150.257821875" y="58.7081125" size="1.27" layer="27" rot="R40" align="top-left"/>
+</element>
+<element name="LS7" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="140.1252125" y="47.662359375" smashed="yes" rot="R20">
+<attribute name="AVAILABILITY" value="In Stock" x="140.1252125" y="47.662359375" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="140.1252125" y="47.662359375" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="MF" value="Murata" x="140.1252125" y="47.662359375" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="MP" value="MA40S4S" x="140.1252125" y="47.662359375" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="NAME" x="134.75445625" y="51.454121875" size="1.27" layer="25" rot="R20"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="140.1252125" y="47.662359375" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="PRICE" value="None" x="140.1252125" y="47.662359375" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="140.1252125" y="47.662359375" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="VALUE" x="138.482475" y="41.211471875" size="1.27" layer="27" rot="R20" align="top-left"/>
+</element>
+<element name="LS8" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="149.595159375" y="52.805184375" smashed="yes" rot="R40">
+<attribute name="AVAILABILITY" value="In Stock" x="149.595159375" y="52.805184375" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="149.595159375" y="52.805184375" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="MF" value="Murata" x="149.595159375" y="52.805184375" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="MP" value="MA40S4S" x="149.595159375" y="52.805184375" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="NAME" x="143.2514375" y="54.53136875" size="1.27" layer="25" rot="R40"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="149.595159375" y="52.805184375" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="PRICE" value="None" x="149.595159375" y="52.805184375" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="149.595159375" y="52.805184375" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="VALUE" x="150.257821875" y="46.181484375" size="1.27" layer="27" rot="R40" align="top-left"/>
+</element>
+<element name="LS9" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="118.664990625" y="49.943565625" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="118.664990625" y="49.943565625" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="118.664990625" y="49.943565625" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="118.664990625" y="49.943565625" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="118.664990625" y="49.943565625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="114.914990625" y="55.343565625" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="118.664990625" y="49.943565625" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="118.664990625" y="49.943565625" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="118.664990625" y="49.943565625" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="114.914990625" y="44.443565625" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS10" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="118.664990625" y="37.41438125" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="118.664990625" y="37.41438125" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="118.664990625" y="37.41438125" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="118.664990625" y="37.41438125" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="118.664990625" y="37.41438125" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="114.914990625" y="42.81438125" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="118.664990625" y="37.41438125" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="118.664990625" y="37.41438125" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="118.664990625" y="37.41438125" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="114.914990625" y="31.91438125" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS11" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="129.56815" y="53.627465625" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="129.56815" y="53.627465625" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="129.56815" y="53.627465625" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="129.56815" y="53.627465625" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="129.56815" y="53.627465625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="125.81815" y="59.027465625" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="129.56815" y="53.627465625" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="129.56815" y="53.627465625" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="129.56815" y="53.627465625" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="125.81815" y="48.127465625" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS12" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="129.56815" y="41.8027625" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="129.56815" y="41.8027625" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="129.56815" y="41.8027625" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="129.56815" y="41.8027625" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="129.56815" y="41.8027625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="125.81815" y="47.2027625" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="129.56815" y="41.8027625" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="129.56815" y="41.8027625" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="129.56815" y="41.8027625" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="125.81815" y="36.3027625" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS13" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="149.595159375" y="40.27855625" smashed="yes" rot="R40">
+<attribute name="AVAILABILITY" value="In Stock" x="149.595159375" y="40.27855625" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="149.595159375" y="40.27855625" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="MF" value="Murata" x="149.595159375" y="40.27855625" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="MP" value="MA40S4S" x="149.595159375" y="40.27855625" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="NAME" x="143.2514375" y="42.004740625" size="1.27" layer="25" rot="R40"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="149.595159375" y="40.27855625" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="PRICE" value="None" x="149.595159375" y="40.27855625" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="149.595159375" y="40.27855625" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="VALUE" x="150.257821875" y="33.65485625" size="1.27" layer="27" rot="R40" align="top-left"/>
+</element>
+<element name="LS14" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="140.1252125" y="35.656565625" smashed="yes" rot="R20">
+<attribute name="AVAILABILITY" value="In Stock" x="140.1252125" y="35.656565625" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="140.1252125" y="35.656565625" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="MF" value="Murata" x="140.1252125" y="35.656565625" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="MP" value="MA40S4S" x="140.1252125" y="35.656565625" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="NAME" x="134.75445625" y="39.448328125" size="1.27" layer="25" rot="R20"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="140.1252125" y="35.656565625" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="PRICE" value="None" x="140.1252125" y="35.656565625" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="140.1252125" y="35.656565625" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="VALUE" x="138.482475" y="29.205678125" size="1.27" layer="27" rot="R20" align="top-left"/>
+</element>
+<element name="LS15" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="140.1252125" y="23.650771875" smashed="yes" rot="R20">
+<attribute name="AVAILABILITY" value="In Stock" x="140.1252125" y="23.650771875" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="140.1252125" y="23.650771875" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="MF" value="Murata" x="140.1252125" y="23.650771875" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="MP" value="MA40S4S" x="140.1252125" y="23.650771875" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="NAME" x="134.75445625" y="27.442534375" size="1.27" layer="25" rot="R20"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="140.1252125" y="23.650771875" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="PRICE" value="None" x="140.1252125" y="23.650771875" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="140.1252125" y="23.650771875" size="1.778" layer="27" rot="R20" display="off"/>
+<attribute name="VALUE" x="138.482475" y="17.199884375" size="1.27" layer="27" rot="R20" align="top-left"/>
+</element>
+<element name="LS16" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="149.595159375" y="27.751928125" smashed="yes" rot="R40">
+<attribute name="AVAILABILITY" value="In Stock" x="149.595159375" y="27.751928125" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="149.595159375" y="27.751928125" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="MF" value="Murata" x="149.595159375" y="27.751928125" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="MP" value="MA40S4S" x="149.595159375" y="27.751928125" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="NAME" x="143.2514375" y="29.4781125" size="1.27" layer="25" rot="R40"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="149.595159375" y="27.751928125" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="PRICE" value="None" x="149.595159375" y="27.751928125" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="149.595159375" y="27.751928125" size="1.778" layer="27" rot="R40" display="off"/>
+<attribute name="VALUE" x="150.257821875" y="21.128228125" size="1.27" layer="27" rot="R40" align="top-left"/>
+</element>
+<element name="LS17" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="107.997978125" y="7.157796875" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="107.997978125" y="7.157796875" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="107.997978125" y="7.157796875" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="107.997978125" y="7.157796875" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="107.997978125" y="7.157796875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="104.247978125" y="12.557796875" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="107.997978125" y="7.157796875" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="107.997978125" y="7.157796875" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="107.997978125" y="7.157796875" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="104.247978125" y="1.657796875" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS18" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="107.997978125" y="19.347878125" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="107.997978125" y="19.347878125" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="107.997978125" y="19.347878125" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="107.997978125" y="19.347878125" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="107.997978125" y="19.347878125" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="104.247978125" y="24.747878125" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="107.997978125" y="19.347878125" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="107.997978125" y="19.347878125" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="107.997978125" y="19.347878125" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="104.247978125" y="13.847878125" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS19" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="97.083571875" y="5.363840625" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="97.083571875" y="5.363840625" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="97.083571875" y="5.363840625" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="97.083571875" y="5.363840625" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="97.083571875" y="5.363840625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="93.333571875" y="10.763840625" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="97.083571875" y="5.363840625" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="97.083571875" y="5.363840625" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="97.083571875" y="5.363840625" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="93.333571875" y="-0.136159375" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS20" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="97.083571875" y="16.714821875" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="97.083571875" y="16.714821875" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="97.083571875" y="16.714821875" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="97.083571875" y="16.714821875" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="97.083571875" y="16.714821875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="93.333571875" y="22.114821875" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="97.083571875" y="16.714821875" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="97.083571875" y="16.714821875" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="97.083571875" y="16.714821875" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="93.333571875" y="11.214821875" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS21" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="129.56815" y="18.15335625" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="129.56815" y="18.15335625" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="129.56815" y="18.15335625" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="129.56815" y="18.15335625" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="129.56815" y="18.15335625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="125.81815" y="23.55335625" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="129.56815" y="18.15335625" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="129.56815" y="18.15335625" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="129.56815" y="18.15335625" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="125.81815" y="12.65335625" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS22" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="129.56815" y="29.978059375" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="129.56815" y="29.978059375" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="129.56815" y="29.978059375" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="129.56815" y="29.978059375" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="129.56815" y="29.978059375" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="125.81815" y="35.378059375" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="129.56815" y="29.978059375" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="129.56815" y="29.978059375" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="129.56815" y="29.978059375" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="125.81815" y="24.478059375" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS23" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="118.664990625" y="12.3560125" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="118.664990625" y="12.3560125" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="118.664990625" y="12.3560125" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="118.664990625" y="12.3560125" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="118.664990625" y="12.3560125" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="114.914990625" y="17.7560125" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="118.664990625" y="12.3560125" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="118.664990625" y="12.3560125" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="118.664990625" y="12.3560125" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="114.914990625" y="6.8560125" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS24" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="118.664990625" y="24.885196875" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="118.664990625" y="24.885196875" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="118.664990625" y="24.885196875" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="118.664990625" y="24.885196875" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="118.664990625" y="24.885196875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="114.914990625" y="30.285196875" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="118.664990625" y="24.885196875" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="118.664990625" y="24.885196875" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="118.664990625" y="24.885196875" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="114.914990625" y="19.385196875" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS25" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="118.664990625" y="62.47275" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="118.664990625" y="62.47275" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="118.664990625" y="62.47275" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="118.664990625" y="62.47275" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="118.664990625" y="62.47275" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="114.914990625" y="67.87275" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="118.664990625" y="62.47275" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="118.664990625" y="62.47275" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="118.664990625" y="62.47275" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="114.914990625" y="56.97275" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS27" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="129.56815" y="65.45216875" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="129.56815" y="65.45216875" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="129.56815" y="65.45216875" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="129.56815" y="65.45216875" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="129.56815" y="65.45216875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="125.81815" y="70.85216875" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="129.56815" y="65.45216875" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="129.56815" y="65.45216875" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="129.56815" y="65.45216875" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="125.81815" y="59.95216875" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS28" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="129.56815" y="77.276871875" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="129.56815" y="77.276871875" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="129.56815" y="77.276871875" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="129.56815" y="77.276871875" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="129.56815" y="77.276871875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="125.81815" y="82.676871875" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="129.56815" y="77.276871875" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="129.56815" y="77.276871875" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="129.56815" y="77.276871875" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="125.81815" y="71.776871875" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS29" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="97.083571875" y="28.065803125" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="97.083571875" y="28.065803125" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="97.083571875" y="28.065803125" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="97.083571875" y="28.065803125" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="97.083571875" y="28.065803125" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="93.333571875" y="33.465803125" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="97.083571875" y="28.065803125" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="97.083571875" y="28.065803125" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="97.083571875" y="28.065803125" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="93.333571875" y="22.565803125" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS30" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="97.083571875" y="39.416784375" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="97.083571875" y="39.416784375" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="97.083571875" y="39.416784375" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="97.083571875" y="39.416784375" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="97.083571875" y="39.416784375" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="93.333571875" y="44.816784375" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="97.083571875" y="39.416784375" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="97.083571875" y="39.416784375" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="97.083571875" y="39.416784375" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="93.333571875" y="33.916784375" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS31" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="107.997978125" y="31.537959375" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="107.997978125" y="31.537959375" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="107.997978125" y="31.537959375" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="107.997978125" y="31.537959375" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="107.997978125" y="31.537959375" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="104.247978125" y="36.937959375" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="107.997978125" y="31.537959375" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="107.997978125" y="31.537959375" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="107.997978125" y="31.537959375" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="104.247978125" y="26.037959375" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS32" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="107.997978125" y="43.728040625" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="107.997978125" y="43.728040625" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="107.997978125" y="43.728040625" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="107.997978125" y="43.728040625" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="107.997978125" y="43.728040625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="104.247978125" y="49.128040625" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="107.997978125" y="43.728040625" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="107.997978125" y="43.728040625" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="107.997978125" y="43.728040625" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="104.247978125" y="38.228040625" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS33" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="64.67619375" y="49.943565625" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="64.67619375" y="49.943565625" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="64.67619375" y="49.943565625" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="64.67619375" y="49.943565625" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="64.67619375" y="49.943565625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="60.92619375" y="55.343565625" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="64.67619375" y="49.943565625" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="64.67619375" y="49.943565625" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="64.67619375" y="49.943565625" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="60.92619375" y="44.443565625" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS34" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="64.67619375" y="37.41438125" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="64.67619375" y="37.41438125" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="64.67619375" y="37.41438125" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="64.67619375" y="37.41438125" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="64.67619375" y="37.41438125" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="60.92619375" y="42.81438125" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="64.67619375" y="37.41438125" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="64.67619375" y="37.41438125" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="64.67619375" y="37.41438125" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="60.92619375" y="31.91438125" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS35" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="53.80044375" y="53.627465625" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="53.80044375" y="53.627465625" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="53.80044375" y="53.627465625" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="53.80044375" y="53.627465625" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="53.80044375" y="53.627465625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="50.05044375" y="59.027465625" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="53.80044375" y="53.627465625" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="53.80044375" y="53.627465625" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="53.80044375" y="53.627465625" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="50.05044375" y="48.127465625" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS36" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="53.80044375" y="41.8027625" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="53.80044375" y="41.8027625" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="53.80044375" y="41.8027625" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="53.80044375" y="41.8027625" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="53.80044375" y="41.8027625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="50.05044375" y="47.2027625" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="53.80044375" y="41.8027625" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="53.80044375" y="41.8027625" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="53.80044375" y="41.8027625" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="50.05044375" y="36.3027625" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS37" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="33.165040625" y="40.27855625" smashed="yes" rot="R320">
+<attribute name="AVAILABILITY" value="In Stock" x="33.165040625" y="40.27855625" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="33.165040625" y="40.27855625" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="MF" value="Murata" x="33.165040625" y="40.27855625" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="MP" value="MA40S4S" x="33.165040625" y="40.27855625" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="NAME" x="33.763421875" y="46.825646875" size="1.27" layer="25" rot="R320"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="33.165040625" y="40.27855625" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="PRICE" value="None" x="33.165040625" y="40.27855625" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="33.165040625" y="40.27855625" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="VALUE" x="26.7570375" y="38.4757625" size="1.27" layer="27" rot="R320" align="top-left"/>
+</element>
+<element name="LS38" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="43.00765" y="35.656565625" smashed="yes" rot="R340">
+<attribute name="AVAILABILITY" value="In Stock" x="43.00765" y="35.656565625" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="43.00765" y="35.656565625" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="MF" value="Murata" x="43.00765" y="35.656565625" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="MP" value="MA40S4S" x="43.00765" y="35.656565625" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="NAME" x="41.330709375" y="42.01348125" size="1.27" layer="25" rot="R340"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="43.00765" y="35.656565625" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="PRICE" value="None" x="43.00765" y="35.656565625" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="43.00765" y="35.656565625" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="VALUE" x="37.602690625" y="31.77083125" size="1.27" layer="27" rot="R340" align="top-left"/>
+</element>
+<element name="LS39" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="43.00765" y="23.650771875" smashed="yes" rot="R340">
+<attribute name="AVAILABILITY" value="In Stock" x="43.00765" y="23.650771875" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="43.00765" y="23.650771875" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="MF" value="Murata" x="43.00765" y="23.650771875" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="MP" value="MA40S4S" x="43.00765" y="23.650771875" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="NAME" x="41.330709375" y="30.0076875" size="1.27" layer="25" rot="R340"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="43.00765" y="23.650771875" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="PRICE" value="None" x="43.00765" y="23.650771875" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="43.00765" y="23.650771875" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="VALUE" x="37.602690625" y="19.7650375" size="1.27" layer="27" rot="R340" align="top-left"/>
+</element>
+<element name="LS40" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="33.165040625" y="27.751928125" smashed="yes" rot="R320">
+<attribute name="AVAILABILITY" value="In Stock" x="33.165040625" y="27.751928125" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="33.165040625" y="27.751928125" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="MF" value="Murata" x="33.165040625" y="27.751928125" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="MP" value="MA40S4S" x="33.165040625" y="27.751928125" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="NAME" x="33.763421875" y="34.29901875" size="1.27" layer="25" rot="R320"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="33.165040625" y="27.751928125" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="PRICE" value="None" x="33.165040625" y="27.751928125" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="33.165040625" y="27.751928125" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="VALUE" x="26.7570375" y="25.949134375" size="1.27" layer="27" rot="R320" align="top-left"/>
+</element>
+<element name="LS41" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="43.00765" y="83.679740625" smashed="yes" rot="R340">
+<attribute name="AVAILABILITY" value="In Stock" x="43.00765" y="83.679740625" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="43.00765" y="83.679740625" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="MF" value="Murata" x="43.00765" y="83.679740625" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="MP" value="MA40S4S" x="43.00765" y="83.679740625" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="NAME" x="41.330709375" y="90.03665625" size="1.27" layer="25" rot="R340"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="43.00765" y="83.679740625" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="PRICE" value="None" x="43.00765" y="83.679740625" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="43.00765" y="83.679740625" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="VALUE" x="37.602690625" y="79.79400625" size="1.27" layer="27" rot="R340" align="top-left"/>
+</element>
+<element name="LS42" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="33.165040625" y="90.38506875" smashed="yes" rot="R320">
+<attribute name="AVAILABILITY" value="In Stock" x="33.165040625" y="90.38506875" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="33.165040625" y="90.38506875" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="MF" value="Murata" x="33.165040625" y="90.38506875" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="MP" value="MA40S4S" x="33.165040625" y="90.38506875" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="NAME" x="33.763421875" y="96.932159375" size="1.27" layer="25" rot="R320"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="33.165040625" y="90.38506875" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="PRICE" value="None" x="33.165040625" y="90.38506875" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="33.165040625" y="90.38506875" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="VALUE" x="26.7570375" y="88.582275" size="1.27" layer="27" rot="R320" align="top-left"/>
+</element>
+<element name="LS43" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="43.00765" y="71.673946875" smashed="yes" rot="R340">
+<attribute name="AVAILABILITY" value="In Stock" x="43.00765" y="71.673946875" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="43.00765" y="71.673946875" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="MF" value="Murata" x="43.00765" y="71.673946875" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="MP" value="MA40S4S" x="43.00765" y="71.673946875" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="NAME" x="41.330709375" y="78.0308625" size="1.27" layer="25" rot="R340"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="43.00765" y="71.673946875" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="PRICE" value="None" x="43.00765" y="71.673946875" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="43.00765" y="71.673946875" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="VALUE" x="37.602690625" y="67.7882125" size="1.27" layer="27" rot="R340" align="top-left"/>
+</element>
+<element name="LS44" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="33.165040625" y="77.858440625" smashed="yes" rot="R320">
+<attribute name="AVAILABILITY" value="In Stock" x="33.165040625" y="77.858440625" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="33.165040625" y="77.858440625" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="MF" value="Murata" x="33.165040625" y="77.858440625" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="MP" value="MA40S4S" x="33.165040625" y="77.858440625" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="NAME" x="33.763421875" y="84.40553125" size="1.27" layer="25" rot="R320"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="33.165040625" y="77.858440625" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="PRICE" value="None" x="33.165040625" y="77.858440625" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="33.165040625" y="77.858440625" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="VALUE" x="26.7570375" y="76.055646875" size="1.27" layer="27" rot="R320" align="top-left"/>
+</element>
+<element name="LS45" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="43.00765" y="59.668153125" smashed="yes" rot="R340">
+<attribute name="AVAILABILITY" value="In Stock" x="43.00765" y="59.668153125" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="43.00765" y="59.668153125" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="MF" value="Murata" x="43.00765" y="59.668153125" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="MP" value="MA40S4S" x="43.00765" y="59.668153125" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="NAME" x="41.330709375" y="66.02506875" size="1.27" layer="25" rot="R340"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="43.00765" y="59.668153125" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="PRICE" value="None" x="43.00765" y="59.668153125" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="43.00765" y="59.668153125" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="VALUE" x="37.602690625" y="55.78241875" size="1.27" layer="27" rot="R340" align="top-left"/>
+</element>
+<element name="LS46" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="33.165040625" y="65.3318125" smashed="yes" rot="R320">
+<attribute name="AVAILABILITY" value="In Stock" x="33.165040625" y="65.3318125" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="33.165040625" y="65.3318125" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="MF" value="Murata" x="33.165040625" y="65.3318125" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="MP" value="MA40S4S" x="33.165040625" y="65.3318125" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="NAME" x="33.763421875" y="71.878903125" size="1.27" layer="25" rot="R320"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="33.165040625" y="65.3318125" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="PRICE" value="None" x="33.165040625" y="65.3318125" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="33.165040625" y="65.3318125" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="VALUE" x="26.7570375" y="63.52901875" size="1.27" layer="27" rot="R320" align="top-left"/>
+</element>
+<element name="LS47" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="43.00765" y="47.662359375" smashed="yes" rot="R340">
+<attribute name="AVAILABILITY" value="In Stock" x="43.00765" y="47.662359375" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="43.00765" y="47.662359375" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="MF" value="Murata" x="43.00765" y="47.662359375" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="MP" value="MA40S4S" x="43.00765" y="47.662359375" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="NAME" x="41.330709375" y="54.019275" size="1.27" layer="25" rot="R340"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="43.00765" y="47.662359375" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="PRICE" value="None" x="43.00765" y="47.662359375" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="43.00765" y="47.662359375" size="1.778" layer="27" rot="R340" display="off"/>
+<attribute name="VALUE" x="37.602690625" y="43.776625" size="1.27" layer="27" rot="R340" align="top-left"/>
+</element>
+<element name="LS48" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="33.165040625" y="52.805184375" smashed="yes" rot="R320">
+<attribute name="AVAILABILITY" value="In Stock" x="33.165040625" y="52.805184375" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="33.165040625" y="52.805184375" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="MF" value="Murata" x="33.165040625" y="52.805184375" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="MP" value="MA40S4S" x="33.165040625" y="52.805184375" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="NAME" x="33.763421875" y="59.352275" size="1.27" layer="25" rot="R320"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="33.165040625" y="52.805184375" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="PRICE" value="None" x="33.165040625" y="52.805184375" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="33.165040625" y="52.805184375" size="1.778" layer="27" rot="R320" display="off"/>
+<attribute name="VALUE" x="26.7570375" y="51.002390625" size="1.27" layer="27" rot="R320" align="top-left"/>
+</element>
+<element name="LS49" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="64.67619375" y="62.47275" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="64.67619375" y="62.47275" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="64.67619375" y="62.47275" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="64.67619375" y="62.47275" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="64.67619375" y="62.47275" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="60.92619375" y="67.87275" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="64.67619375" y="62.47275" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="64.67619375" y="62.47275" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="64.67619375" y="62.47275" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="60.92619375" y="56.97275" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS51" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="53.80044375" y="65.45216875" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="53.80044375" y="65.45216875" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="53.80044375" y="65.45216875" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="53.80044375" y="65.45216875" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="53.80044375" y="65.45216875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="50.05044375" y="70.85216875" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="53.80044375" y="65.45216875" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="53.80044375" y="65.45216875" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="53.80044375" y="65.45216875" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="50.05044375" y="59.95216875" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS52" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="53.80044375" y="77.276871875" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="53.80044375" y="77.276871875" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="53.80044375" y="77.276871875" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="53.80044375" y="77.276871875" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="53.80044375" y="77.276871875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="50.05044375" y="82.676871875" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="53.80044375" y="77.276871875" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="53.80044375" y="77.276871875" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="53.80044375" y="77.276871875" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="50.05044375" y="71.776871875" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS53" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="86.2478375" y="28.065803125" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="86.2478375" y="28.065803125" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="86.2478375" y="28.065803125" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="86.2478375" y="28.065803125" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="86.2478375" y="28.065803125" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="82.4978375" y="33.465803125" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="86.2478375" y="28.065803125" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="86.2478375" y="28.065803125" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="86.2478375" y="28.065803125" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="82.4978375" y="22.565803125" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS54" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="86.2478375" y="39.416784375" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="86.2478375" y="39.416784375" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="86.2478375" y="39.416784375" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="86.2478375" y="39.416784375" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="86.2478375" y="39.416784375" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="82.4978375" y="44.816784375" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="86.2478375" y="39.416784375" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="86.2478375" y="39.416784375" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="86.2478375" y="39.416784375" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="82.4978375" y="33.916784375" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS55" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="75.459915625" y="31.537959375" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="75.459915625" y="31.537959375" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="75.459915625" y="31.537959375" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="75.459915625" y="31.537959375" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="75.459915625" y="31.537959375" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="71.709915625" y="36.937959375" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="75.459915625" y="31.537959375" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="75.459915625" y="31.537959375" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="75.459915625" y="31.537959375" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="71.709915625" y="26.037959375" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS56" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="75.459915625" y="43.728040625" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="75.459915625" y="43.728040625" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="75.459915625" y="43.728040625" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="75.459915625" y="43.728040625" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="75.459915625" y="43.728040625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="71.709915625" y="49.128040625" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="75.459915625" y="43.728040625" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="75.459915625" y="43.728040625" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="75.459915625" y="43.728040625" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="71.709915625" y="38.228040625" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS57" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="75.459915625" y="7.157796875" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="75.459915625" y="7.157796875" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="75.459915625" y="7.157796875" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="75.459915625" y="7.157796875" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="75.459915625" y="7.157796875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="71.709915625" y="12.557796875" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="75.459915625" y="7.157796875" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="75.459915625" y="7.157796875" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="75.459915625" y="7.157796875" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="71.709915625" y="1.657796875" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS58" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="75.459915625" y="19.347878125" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="75.459915625" y="19.347878125" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="75.459915625" y="19.347878125" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="75.459915625" y="19.347878125" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="75.459915625" y="19.347878125" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="71.709915625" y="24.747878125" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="75.459915625" y="19.347878125" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="75.459915625" y="19.347878125" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="75.459915625" y="19.347878125" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="71.709915625" y="13.847878125" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS59" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="86.2478375" y="5.363840625" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="86.2478375" y="5.363840625" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="86.2478375" y="5.363840625" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="86.2478375" y="5.363840625" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="86.2478375" y="5.363840625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="82.4978375" y="10.763840625" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="86.2478375" y="5.363840625" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="86.2478375" y="5.363840625" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="86.2478375" y="5.363840625" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="82.4978375" y="-0.136159375" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS60" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="86.2478375" y="16.714821875" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="86.2478375" y="16.714821875" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="86.2478375" y="16.714821875" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="86.2478375" y="16.714821875" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="86.2478375" y="16.714821875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="82.4978375" y="22.114821875" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="86.2478375" y="16.714821875" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="86.2478375" y="16.714821875" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="86.2478375" y="16.714821875" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="82.4978375" y="11.214821875" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS61" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="53.80044375" y="18.15335625" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="53.80044375" y="18.15335625" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="53.80044375" y="18.15335625" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="53.80044375" y="18.15335625" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="53.80044375" y="18.15335625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="50.05044375" y="23.55335625" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="53.80044375" y="18.15335625" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="53.80044375" y="18.15335625" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="53.80044375" y="18.15335625" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="50.05044375" y="12.65335625" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS62" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="53.80044375" y="29.978059375" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="53.80044375" y="29.978059375" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="53.80044375" y="29.978059375" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="53.80044375" y="29.978059375" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="53.80044375" y="29.978059375" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="50.05044375" y="35.378059375" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="53.80044375" y="29.978059375" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="53.80044375" y="29.978059375" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="53.80044375" y="29.978059375" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="50.05044375" y="24.478059375" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS63" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="64.67619375" y="12.3560125" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="64.67619375" y="12.3560125" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="64.67619375" y="12.3560125" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="64.67619375" y="12.3560125" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="64.67619375" y="12.3560125" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="60.92619375" y="17.7560125" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="64.67619375" y="12.3560125" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="64.67619375" y="12.3560125" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="64.67619375" y="12.3560125" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="60.92619375" y="6.8560125" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="LS64" library="MA40S4S" package="XDCR_MA40S4S" value="MA40S4S" x="64.67619375" y="24.885196875" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="64.67619375" y="24.885196875" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" ULTRASONIC SENSOR TRANS 40KHZ " x="64.67619375" y="24.885196875" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="64.67619375" y="24.885196875" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MA40S4S" x="64.67619375" y="24.885196875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="60.92619375" y="30.285196875" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="Radial-2 Murata" x="64.67619375" y="24.885196875" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="64.67619375" y="24.885196875" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MA40S4S/?ref=eda" x="64.67619375" y="24.885196875" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="60.92619375" y="19.385196875" size="1.27" layer="27" align="top-left"/>
+</element>
+</elements>
+<signals>
+<signal name="GND">
+<polygon width="0.1524" layer="1">
+<vertex x="2.8702" y="110.0836"/>
+<vertex x="2.8702" y="38.5826"/>
+<vertex x="46.9646" y="-5.5118"/>
+<vertex x="132.3086" y="-5.5118"/>
+<vertex x="136.3726" y="-1.4478"/>
+<vertex x="138.7094" y="-1.4478"/>
+<vertex x="186.69" y="46.5328"/>
+<vertex x="186.69" y="103.378"/>
+<vertex x="183.3372" y="106.7308"/>
+<vertex x="175.4124" y="114.6556"/>
+<vertex x="171.6024" y="114.6556"/>
+<vertex x="9.8298" y="114.6556"/>
+<vertex x="3.8354" y="108.6612"/>
+</polygon>
+<contactref element="J8" pad="15"/>
+<contactref element="J8" pad="13"/>
+<contactref element="J8" pad="11"/>
+<contactref element="J8" pad="9"/>
+<contactref element="J8" pad="7"/>
+<contactref element="J8" pad="5"/>
+<contactref element="J8" pad="3"/>
+<contactref element="J8" pad="1"/>
+<contactref element="J7" pad="15"/>
+<contactref element="J7" pad="13"/>
+<contactref element="J7" pad="11"/>
+<contactref element="J7" pad="9"/>
+<contactref element="J7" pad="7"/>
+<contactref element="J7" pad="5"/>
+<contactref element="J7" pad="3"/>
+<contactref element="J7" pad="1"/>
+<contactref element="J6" pad="15"/>
+<contactref element="J6" pad="13"/>
+<contactref element="J6" pad="11"/>
+<contactref element="J6" pad="9"/>
+<contactref element="J6" pad="7"/>
+<contactref element="J6" pad="5"/>
+<contactref element="J6" pad="3"/>
+<contactref element="J6" pad="1"/>
+<contactref element="J5" pad="15"/>
+<contactref element="J5" pad="13"/>
+<contactref element="J5" pad="11"/>
+<contactref element="J5" pad="9"/>
+<contactref element="J5" pad="7"/>
+<contactref element="J5" pad="5"/>
+<contactref element="J5" pad="3"/>
+<contactref element="J5" pad="1"/>
+<contactref element="J2" pad="15"/>
+<contactref element="J2" pad="13"/>
+<contactref element="J2" pad="11"/>
+<contactref element="J2" pad="9"/>
+<contactref element="J2" pad="7"/>
+<contactref element="J2" pad="5"/>
+<contactref element="J2" pad="3"/>
+<contactref element="J2" pad="1"/>
+<contactref element="J1" pad="15"/>
+<contactref element="J1" pad="13"/>
+<contactref element="J1" pad="11"/>
+<contactref element="J1" pad="9"/>
+<contactref element="J1" pad="7"/>
+<contactref element="J1" pad="5"/>
+<contactref element="J1" pad="3"/>
+<contactref element="J4" pad="15"/>
+<contactref element="J4" pad="13"/>
+<contactref element="J4" pad="11"/>
+<contactref element="J4" pad="9"/>
+<contactref element="J4" pad="7"/>
+<contactref element="J4" pad="5"/>
+<contactref element="J4" pad="3"/>
+<contactref element="J4" pad="1"/>
+<contactref element="J3" pad="15"/>
+<contactref element="J3" pad="13"/>
+<contactref element="J3" pad="11"/>
+<contactref element="J3" pad="9"/>
+<contactref element="J3" pad="7"/>
+<contactref element="J3" pad="5"/>
+<contactref element="J3" pad="3"/>
+<contactref element="J3" pad="1"/>
+<contactref element="J1" pad="1"/>
+<contactref element="LS1" pad="2"/>
+<contactref element="LS3" pad="2"/>
+<contactref element="LS4" pad="2"/>
+<contactref element="LS5" pad="2"/>
+<contactref element="LS6" pad="2"/>
+<contactref element="LS7" pad="2"/>
+<contactref element="LS8" pad="2"/>
+<contactref element="LS2" pad="2"/>
+<contactref element="LS16" pad="2"/>
+<contactref element="LS15" pad="2"/>
+<contactref element="LS14" pad="2"/>
+<contactref element="LS13" pad="2"/>
+<contactref element="LS12" pad="2"/>
+<contactref element="LS11" pad="2"/>
+<contactref element="LS10" pad="2"/>
+<contactref element="LS9" pad="2"/>
+<contactref element="LS32" pad="2"/>
+<contactref element="LS31" pad="2"/>
+<contactref element="LS30" pad="2"/>
+<contactref element="LS29" pad="2"/>
+<contactref element="LS28" pad="2"/>
+<contactref element="LS27" pad="2"/>
+<contactref element="LS25" pad="2"/>
+<contactref element="LS24" pad="2"/>
+<contactref element="LS22" pad="2"/>
+<contactref element="LS23" pad="2"/>
+<contactref element="LS21" pad="2"/>
+<contactref element="LS20" pad="2"/>
+<contactref element="LS19" pad="2"/>
+<contactref element="LS18" pad="2"/>
+<contactref element="LS17" pad="2"/>
+<contactref element="LS40" pad="2"/>
+<contactref element="LS39" pad="2"/>
+<contactref element="LS38" pad="2"/>
+<contactref element="LS37" pad="2"/>
+<contactref element="LS36" pad="2"/>
+<contactref element="LS35" pad="2"/>
+<contactref element="LS34" pad="2"/>
+<contactref element="LS33" pad="2"/>
+<contactref element="LS48" pad="2"/>
+<contactref element="LS47" pad="2"/>
+<contactref element="LS46" pad="2"/>
+<contactref element="LS45" pad="2"/>
+<contactref element="LS44" pad="2"/>
+<contactref element="LS43" pad="2"/>
+<contactref element="LS41" pad="2"/>
+<contactref element="LS42" pad="2"/>
+<contactref element="LS64" pad="2"/>
+<contactref element="LS63" pad="2"/>
+<contactref element="LS62" pad="2"/>
+<contactref element="LS61" pad="2"/>
+<contactref element="LS60" pad="2"/>
+<contactref element="LS59" pad="2"/>
+<contactref element="LS58" pad="2"/>
+<contactref element="LS57" pad="2"/>
+<contactref element="LS56" pad="2"/>
+<contactref element="LS55" pad="2"/>
+<contactref element="LS54" pad="2"/>
+<contactref element="LS52" pad="2"/>
+<contactref element="LS51" pad="2"/>
+<contactref element="LS49" pad="2"/>
+<contactref element="LS53" pad="2"/>
+</signal>
+<signal name="N$4">
+</signal>
+<signal name="N$1">
+<contactref element="J1" pad="16"/>
+<contactref element="LS8" pad="1"/>
+<wire x1="160.9598" y1="78.3844" x2="160.9598" y2="73.277428125" width="0.1524" layer="16"/>
+<wire x1="160.9598" y1="73.277428125" x2="147.61656875" y2="59.934196875" width="0.1524" layer="16"/>
+<wire x1="147.61656875" y1="59.934196875" x2="147.61656875" y2="51.261690625" width="0.1524" layer="16"/>
+<wire x1="147.61656875" y1="51.261690625" x2="147.680046875" y2="51.1982125" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$2">
+<contactref element="J1" pad="14"/>
+<contactref element="LS7" pad="1"/>
+<wire x1="160.9598" y1="80.9244" x2="159.746603125" y2="79.711203125" width="0.1524" layer="16"/>
+<wire x1="159.746603125" y1="79.711203125" x2="157.810596875" y2="79.711203125" width="0.1524" layer="16"/>
+<wire x1="157.810596875" y1="79.711203125" x2="156.82455" y2="78.72515625" width="0.1524" layer="16"/>
+<wire x1="156.82455" y1="73.91895" x2="156.82455" y2="78.72515625" width="0.1524" layer="16"/>
+<wire x1="148.8948" y1="65.9892" x2="156.82455" y2="73.91895" width="0.1524" layer="16"/>
+<wire x1="148.8948" y1="63.246" x2="148.8948" y2="65.9892" width="0.1524" layer="16"/>
+<wire x1="147.5232" y1="61.8744" x2="148.8948" y2="63.246" width="0.1524" layer="16"/>
+<wire x1="133.6548" y1="61.8744" x2="147.5232" y2="61.8744" width="0.1524" layer="16"/>
+<wire x1="125.8824" y1="54.102" x2="133.6548" y2="61.8744" width="0.1524" layer="16"/>
+<wire x1="125.8824" y1="53.1876" x2="125.8824" y2="54.102" width="0.1524" layer="16"/>
+<wire x1="132.1308" y1="46.9392" x2="125.8824" y2="53.1876" width="0.1524" layer="16"/>
+<wire x1="137.7696" y1="46.9392" x2="132.1308" y2="46.9392" width="0.1524" layer="16"/>
+<wire x1="137.7696" y1="46.9392" x2="137.775978125" y2="46.80730625" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$3">
+<contactref element="J1" pad="12"/>
+<contactref element="LS6" pad="1"/>
+<wire x1="160.02" y1="83.3628" x2="160.9344" y2="83.3628" width="0.1524" layer="16"/>
+<wire x1="160.02" y1="83.3628" x2="159.9253625" y2="83.2681625" width="0.1524" layer="16"/>
+<wire x1="146.4564" y1="76.8096" x2="146.4564" y2="65.0748" width="0.1524" layer="16"/>
+<wire x1="147.6756" y1="63.8556" x2="146.4564" y2="65.0748" width="0.1524" layer="16"/>
+<wire x1="160.9344" y1="83.3628" x2="160.9598" y2="83.4644" width="0.1524" layer="16"/>
+<wire x1="147.6756" y1="63.8556" x2="147.680046875" y2="63.724840625" width="0.1524" layer="16"/>
+<wire x1="159.9253625" y1="83.2681625" x2="159.9253625" y2="83.91561875" width="0.1524" layer="16"/>
+<wire x1="159.9253625" y1="83.91561875" x2="159.009715625" y2="84.831265625" width="0.1524" layer="16"/>
+<wire x1="159.009715625" y1="84.831265625" x2="154.478065625" y2="84.831265625" width="0.1524" layer="16"/>
+<wire x1="154.478065625" y1="84.831265625" x2="146.4564" y2="76.8096" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$5">
+<contactref element="J1" pad="10"/>
+<contactref element="LS5" pad="1"/>
+<wire x1="161.0868" y1="85.4964" x2="161.0868" y2="85.9536" width="0.1524" layer="16"/>
+<wire x1="162.4584" y1="84.1248" x2="161.0868" y2="85.4964" width="0.1524" layer="16"/>
+<wire x1="162.4584" y1="84.1248" x2="162.4584" y2="79.637709375" width="0.1524" layer="16"/>
+<wire x1="159.7143375" y1="73.4559375" x2="145.0848" y2="58.8264" width="0.1524" layer="16"/>
+<wire x1="137.922" y1="58.8264" x2="145.0848" y2="58.8264" width="0.1524" layer="16"/>
+<wire x1="161.0868" y1="85.9536" x2="160.9598" y2="86.0044" width="0.1524" layer="16"/>
+<wire x1="137.922" y1="58.8264" x2="137.775978125" y2="58.8131" width="0.1524" layer="16"/>
+<wire x1="162.4584" y1="79.637709375" x2="160.2224625" y2="79.637709375" width="0.1524" layer="16"/>
+<wire x1="159.7143375" y1="79.129584375" x2="159.7143375" y2="73.4559375" width="0.1524" layer="16"/>
+<wire x1="160.2224625" y1="79.637709375" x2="159.7143375" y2="79.129584375" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$6">
+<contactref element="J1" pad="8"/>
+<contactref element="LS4" pad="1"/>
+<wire x1="160.9344" y1="87.63" x2="160.9344" y2="88.5444" width="0.1524" layer="16"/>
+<wire x1="159.7152" y1="86.4108" x2="160.9344" y2="87.63" width="0.1524" layer="16"/>
+<wire x1="159.7152" y1="85.6488" x2="159.7152" y2="86.4108" width="0.1524" layer="16"/>
+<wire x1="160.6296" y1="84.7344" x2="159.7152" y2="85.6488" width="0.1524" layer="16"/>
+<wire x1="161.3916" y1="84.7344" x2="160.6296" y2="84.7344" width="0.1524" layer="16"/>
+<wire x1="162.1536" y1="83.9724" x2="161.3916" y2="84.7344" width="0.1524" layer="16"/>
+<wire x1="162.1536" y1="82.936690625" x2="162.1536" y2="83.9724" width="0.1524" layer="16"/>
+<wire x1="162.1536" y1="82.936690625" x2="161.421240625" y2="82.20433125" width="0.1524" layer="16"/>
+<wire x1="161.421240625" y1="82.20433125" x2="155.96593125" y2="82.20433125" width="0.1524" layer="16"/>
+<wire x1="150.114" y1="76.3524" x2="147.828" y2="76.3524" width="0.1524" layer="16"/>
+<wire x1="160.9344" y1="88.5444" x2="160.9598" y2="88.5444" width="0.1524" layer="16"/>
+<wire x1="147.828" y1="76.3524" x2="147.680046875" y2="76.25146875" width="0.1524" layer="16"/>
+<wire x1="155.96593125" y1="82.20433125" x2="150.114" y2="76.3524" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$7">
+<contactref element="J1" pad="6"/>
+<contactref element="LS3" pad="1"/>
+<wire x1="160.02" y1="90.9828" x2="160.9344" y2="90.9828" width="0.1524" layer="16"/>
+<wire x1="158.8008" y1="89.7636" x2="160.02" y2="90.9828" width="0.1524" layer="16"/>
+<wire x1="156.8196" y1="89.7636" x2="158.8008" y2="89.7636" width="0.1524" layer="16"/>
+<wire x1="137.922" y1="70.866" x2="156.8196" y2="89.7636" width="0.1524" layer="16"/>
+<wire x1="160.9344" y1="90.9828" x2="160.9598" y2="91.0844" width="0.1524" layer="16"/>
+<wire x1="137.922" y1="70.866" x2="137.775978125" y2="70.81889375" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$8">
+<contactref element="J1" pad="4"/>
+<contactref element="LS2" pad="1"/>
+<wire x1="162.1536" y1="93.5736" x2="161.0868" y2="93.5736" width="0.1524" layer="16"/>
+<wire x1="165.8112" y1="89.916" x2="162.1536" y2="93.5736" width="0.1524" layer="16"/>
+<wire x1="172.0596" y1="89.916" x2="165.8112" y2="89.916" width="0.1524" layer="16"/>
+<wire x1="172.8216" y1="90.678" x2="172.0596" y2="89.916" width="0.1524" layer="16"/>
+<wire x1="172.8216" y1="96.774" x2="172.8216" y2="90.678" width="0.1524" layer="16"/>
+<wire x1="171.14351875" y1="98.45208125" x2="172.8216" y2="96.774" width="0.1524" layer="16"/>
+<wire x1="155.133190625" y1="98.45208125" x2="171.14351875" y2="98.45208125" width="0.1524" layer="16"/>
+<wire x1="147.828" y1="91.146890625" x2="155.133190625" y2="98.45208125" width="0.1524" layer="16"/>
+<wire x1="147.828" y1="88.8492" x2="147.828" y2="91.146890625" width="0.1524" layer="16"/>
+<wire x1="161.0868" y1="93.5736" x2="160.9598" y2="93.6244" width="0.1524" layer="16"/>
+<wire x1="147.828" y1="88.8492" x2="147.680046875" y2="88.778096875" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$9">
+<contactref element="J1" pad="2"/>
+<contactref element="LS1" pad="1"/>
+<wire x1="160.9598" y1="96.1644" x2="159.5351625" y2="97.5890375" width="0.1524" layer="16"/>
+<wire x1="159.5351625" y1="97.5890375" x2="156.86058125" y2="97.5890375" width="0.1524" layer="16"/>
+<wire x1="156.86058125" y1="97.5890375" x2="156.8246375" y2="97.55309375" width="0.1524" layer="16"/>
+<wire x1="156.8246375" y1="97.55309375" x2="156.8246375" y2="94.8203" width="0.1524" layer="16"/>
+<wire x1="156.8246375" y1="94.8203" x2="144.829025" y2="82.8246875" width="0.1524" layer="16"/>
+<wire x1="144.829025" y1="82.8246875" x2="137.775978125" y2="82.8246875" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$10">
+<contactref element="J2" pad="16"/>
+<contactref element="LS16" pad="1"/>
+<wire x1="167.3352" y1="48.768" x2="160.9344" y2="48.768" width="0.1524" layer="16"/>
+<wire x1="168.5544" y1="49.9872" x2="167.3352" y2="48.768" width="0.1524" layer="16"/>
+<wire x1="172.0596" y1="49.9872" x2="168.5544" y2="49.9872" width="0.1524" layer="16"/>
+<wire x1="172.8216" y1="49.2252" x2="172.0596" y2="49.9872" width="0.1524" layer="16"/>
+<wire x1="172.8216" y1="48.3108" x2="172.8216" y2="49.2252" width="0.1524" layer="16"/>
+<wire x1="150.7236" y1="26.2128" x2="172.8216" y2="48.3108" width="0.1524" layer="16"/>
+<wire x1="147.828" y1="26.2128" x2="150.7236" y2="26.2128" width="0.1524" layer="16"/>
+<wire x1="147.828" y1="26.2128" x2="147.680046875" y2="26.14495625" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$11">
+<contactref element="J2" pad="14"/>
+<contactref element="LS15" pad="1"/>
+<wire x1="160.9344" y1="50.4444" x2="160.9344" y2="51.308" width="0.1524" layer="16"/>
+<wire x1="159.5628" y1="49.0728" x2="160.9344" y2="50.4444" width="0.1524" layer="16"/>
+<wire x1="159.5628" y1="48.1584" x2="159.5628" y2="49.0728" width="0.1524" layer="16"/>
+<wire x1="142.6464" y1="31.242" x2="159.5628" y2="48.1584" width="0.1524" layer="16"/>
+<wire x1="126.6444" y1="31.242" x2="142.6464" y2="31.242" width="0.1524" layer="16"/>
+<wire x1="125.8824" y1="30.48" x2="126.6444" y2="31.242" width="0.1524" layer="16"/>
+<wire x1="125.8824" y1="29.5656" x2="125.8824" y2="30.48" width="0.1524" layer="16"/>
+<wire x1="132.588" y1="22.86" x2="125.8824" y2="29.5656" width="0.1524" layer="16"/>
+<wire x1="137.7696" y1="22.86" x2="132.588" y2="22.86" width="0.1524" layer="16"/>
+<wire x1="137.7696" y1="22.86" x2="137.775978125" y2="22.79571875" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$12">
+<contactref element="J2" pad="12"/>
+<contactref element="LS14" pad="1"/>
+<wire x1="160.9344" y1="53.0352" x2="160.9344" y2="53.848" width="0.1524" layer="16"/>
+<wire x1="159.5628" y1="51.6636" x2="160.9344" y2="53.0352" width="0.1524" layer="16"/>
+<wire x1="159.5628" y1="50.7492" x2="159.5628" y2="51.6636" width="0.1524" layer="16"/>
+<wire x1="158.8008" y1="49.9872" x2="159.5628" y2="50.7492" width="0.1524" layer="16"/>
+<wire x1="157.8864" y1="49.9872" x2="158.8008" y2="49.9872" width="0.1524" layer="16"/>
+<wire x1="148.8948" y1="40.9956" x2="157.8864" y2="49.9872" width="0.1524" layer="16"/>
+<wire x1="148.8948" y1="38.1" x2="148.8948" y2="40.9956" width="0.1524" layer="16"/>
+<wire x1="145.6944" y1="34.8996" x2="148.8948" y2="38.1" width="0.1524" layer="16"/>
+<wire x1="137.922" y1="34.8996" x2="145.6944" y2="34.8996" width="0.1524" layer="16"/>
+<wire x1="137.922" y1="34.8996" x2="137.775978125" y2="34.8015125" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$13">
+<contactref element="J2" pad="10"/>
+<contactref element="LS13" pad="1"/>
+<wire x1="160.9344" y1="55.4736" x2="160.9344" y2="56.388" width="0.1524" layer="16"/>
+<wire x1="159.5628" y1="54.102" x2="160.9344" y2="55.4736" width="0.1524" layer="16"/>
+<wire x1="159.5628" y1="53.34" x2="159.5628" y2="54.102" width="0.1524" layer="16"/>
+<wire x1="158.8008" y1="52.578" x2="159.5628" y2="53.34" width="0.1524" layer="16"/>
+<wire x1="158.0388" y1="52.578" x2="158.8008" y2="52.578" width="0.1524" layer="16"/>
+<wire x1="147.828" y1="42.3672" x2="158.0388" y2="52.578" width="0.1524" layer="16"/>
+<wire x1="147.828" y1="38.7096" x2="147.828" y2="42.3672" width="0.1524" layer="16"/>
+<wire x1="147.828" y1="38.7096" x2="147.680046875" y2="38.671584375" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$14">
+<contactref element="J2" pad="8"/>
+<contactref element="LS12" pad="1"/>
+<wire x1="160.02" y1="58.8264" x2="160.9344" y2="58.8264" width="0.1524" layer="16"/>
+<wire x1="158.8008" y1="57.6072" x2="160.02" y2="58.8264" width="0.1524" layer="16"/>
+<wire x1="158.8008" y1="57.6072" x2="157.502659375" y2="57.6072" width="0.1524" layer="16"/>
+<wire x1="128.1684" y1="42.9768" x2="127.1016" y2="41.91" width="0.1524" layer="16"/>
+<wire x1="160.9344" y1="58.8264" x2="160.9344" y2="58.928" width="0.1524" layer="16"/>
+<wire x1="127.1016" y1="41.91" x2="127.06815" y2="41.8027625" width="0.1524" layer="16"/>
+<wire x1="156.0923125" y1="53.620703125" x2="145.448409375" y2="42.9768" width="0.1524" layer="16"/>
+<wire x1="145.448409375" y1="42.9768" x2="128.1684" y2="42.9768" width="0.1524" layer="16"/>
+<wire x1="156.0923125" y1="56.196853125" x2="156.0923125" y2="53.620703125" width="0.1524" layer="16"/>
+<wire x1="157.502659375" y1="57.6072" x2="156.0923125" y2="56.196853125" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$15">
+<contactref element="J2" pad="6"/>
+<contactref element="LS11" pad="1"/>
+<wire x1="160.9344" y1="62.3316" x2="160.9344" y2="61.468" width="0.1524" layer="16"/>
+<wire x1="162.1536" y1="63.5508" x2="160.9344" y2="62.3316" width="0.1524" layer="16"/>
+<wire x1="162.1536" y1="67.056" x2="162.1536" y2="63.5508" width="0.1524" layer="16"/>
+<wire x1="161.3916" y1="67.818" x2="162.1536" y2="67.056" width="0.1524" layer="16"/>
+<wire x1="157.17431875" y1="67.818" x2="161.3916" y2="67.818" width="0.1524" layer="16"/>
+<wire x1="157.17431875" y1="67.818" x2="152.8356" y2="63.47928125" width="0.1524" layer="16"/>
+<wire x1="134.128478125" y1="54.864" x2="128.3208" y2="54.864" width="0.1524" layer="16"/>
+<wire x1="127.1016" y1="53.6448" x2="128.3208" y2="54.864" width="0.1524" layer="16"/>
+<wire x1="127.1016" y1="53.6448" x2="127.06815" y2="53.627465625" width="0.1524" layer="16"/>
+<wire x1="152.8356" y1="63.47928125" x2="152.8356" y2="53.795228125" width="0.1524" layer="16"/>
+<wire x1="152.8356" y1="53.795228125" x2="148.813725" y2="49.773353125" width="0.1524" layer="16"/>
+<wire x1="148.813725" y1="49.773353125" x2="139.219125" y2="49.773353125" width="0.1524" layer="16"/>
+<wire x1="139.219125" y1="49.773353125" x2="134.128478125" y2="54.864" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$16">
+<contactref element="J2" pad="4"/>
+<contactref element="LS10" pad="1"/>
+<wire x1="160.02" y1="64.008" x2="160.9344" y2="64.008" width="0.1524" layer="16"/>
+<wire x1="158.6484" y1="62.6364" x2="160.02" y2="64.008" width="0.1524" layer="16"/>
+<wire x1="157.25386875" y1="62.6364" x2="158.6484" y2="62.6364" width="0.1524" layer="16"/>
+<wire x1="155.103075" y1="60.48560625" x2="157.25386875" y2="62.6364" width="0.1524" layer="16"/>
+<wire x1="116.2812" y1="37.4904" x2="122.3772" y2="43.5864" width="0.1524" layer="16"/>
+<wire x1="116.2812" y1="37.4904" x2="116.164990625" y2="37.41438125" width="0.1524" layer="16"/>
+<wire x1="155.103075" y1="54.547190625" x2="155.103075" y2="60.48560625" width="0.1524" layer="16"/>
+<wire x1="122.3772" y1="43.5864" x2="144.142284375" y2="43.5864" width="0.1524" layer="16"/>
+<wire x1="144.142284375" y1="43.5864" x2="155.103075" y2="54.547190625" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$17">
+<contactref element="J2" pad="2"/>
+<contactref element="LS9" pad="1"/>
+<wire x1="160.02" y1="66.4464" x2="160.9344" y2="66.4464" width="0.1524" layer="16"/>
+<wire x1="158.8008" y1="65.2272" x2="160.02" y2="66.4464" width="0.1524" layer="16"/>
+<wire x1="157.4292" y1="65.2272" x2="158.8008" y2="65.2272" width="0.1524" layer="16"/>
+<wire x1="157.4292" y1="65.2272" x2="154.309884375" y2="62.107884375" width="0.1524" layer="16"/>
+<wire x1="160.9344" y1="66.4464" x2="160.9344" y2="66.548" width="0.1524" layer="16"/>
+<wire x1="116.2812" y1="49.8348" x2="116.164990625" y2="49.943565625" width="0.1524" layer="16"/>
+<wire x1="154.309884375" y1="62.107884375" x2="154.309884375" y2="54.576109375" width="0.1524" layer="16"/>
+<wire x1="154.309884375" y1="54.576109375" x2="144.17241875" y2="44.43864375" width="0.1524" layer="16"/>
+<wire x1="144.17241875" y1="44.43864375" x2="121.67735625" y2="44.43864375" width="0.1524" layer="16"/>
+<wire x1="121.67735625" y1="44.43864375" x2="116.2812" y2="49.8348" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$18">
+<contactref element="J4" pad="16"/>
+<contactref element="LS32" pad="1"/>
+<wire x1="171.6024" y1="70.866" x2="171.6024" y2="78.486" width="0.1524" layer="16"/>
+<wire x1="167.7924" y1="67.056" x2="171.6024" y2="70.866" width="0.1524" layer="16"/>
+<wire x1="167.7924" y1="63.5508" x2="167.7924" y2="67.056" width="0.1524" layer="16"/>
+<wire x1="168.7068" y1="62.6364" x2="167.7924" y2="63.5508" width="0.1524" layer="16"/>
+<wire x1="169.4688" y1="62.6364" x2="168.7068" y2="62.6364" width="0.1524" layer="16"/>
+<wire x1="170.3832" y1="61.722" x2="169.4688" y2="62.6364" width="0.1524" layer="16"/>
+<wire x1="170.3832" y1="60.96" x2="170.3832" y2="61.722" width="0.1524" layer="16"/>
+<wire x1="171.1452" y1="60.198" x2="170.3832" y2="60.96" width="0.1524" layer="16"/>
+<wire x1="171.9072" y1="60.198" x2="171.1452" y2="60.198" width="0.1524" layer="16"/>
+<wire x1="172.8216" y1="59.2836" x2="171.9072" y2="60.198" width="0.1524" layer="16"/>
+<wire x1="172.8216" y1="58.5216" x2="172.8216" y2="59.2836" width="0.1524" layer="16"/>
+<wire x1="172.0596" y1="57.7596" x2="172.8216" y2="58.5216" width="0.1524" layer="16"/>
+<wire x1="163.83" y1="57.7596" x2="172.0596" y2="57.7596" width="0.1524" layer="16"/>
+<wire x1="161.3916" y1="60.198" x2="163.83" y2="57.7596" width="0.1524" layer="16"/>
+<wire x1="158.0388" y1="60.198" x2="161.3916" y2="60.198" width="0.1524" layer="16"/>
+<wire x1="155.49753125" y1="57.65673125" x2="158.0388" y2="60.198" width="0.1524" layer="16"/>
+<wire x1="116.7384" y1="36.2712" x2="123.7488" y2="43.2816" width="0.1524" layer="16"/>
+<wire x1="112.9284" y1="36.2712" x2="116.7384" y2="36.2712" width="0.1524" layer="16"/>
+<wire x1="105.6132" y1="43.5864" x2="112.9284" y2="36.2712" width="0.1524" layer="16"/>
+<wire x1="171.6024" y1="78.486" x2="171.6532" y2="78.486" width="0.1524" layer="16"/>
+<wire x1="105.6132" y1="43.5864" x2="105.497978125" y2="43.728040625" width="0.1524" layer="16"/>
+<wire x1="144.873034375" y1="43.2816" x2="155.49753125" y2="53.906096875" width="0.1524" layer="16"/>
+<wire x1="155.49753125" y1="53.906096875" x2="155.49753125" y2="57.65673125" width="0.1524" layer="16"/>
+<wire x1="123.7488" y1="43.2816" x2="144.873034375" y2="43.2816" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$19">
+<contactref element="J4" pad="14"/>
+<contactref element="LS31" pad="1"/>
+<wire x1="171.6024" y1="81.9912" x2="171.6024" y2="81.0768" width="0.1524" layer="16"/>
+<wire x1="170.3832" y1="83.2104" x2="171.6024" y2="81.9912" width="0.1524" layer="16"/>
+<wire x1="170.3832" y1="86.5632" x2="170.3832" y2="83.2104" width="0.1524" layer="16"/>
+<wire x1="171.2976" y1="87.4776" x2="170.3832" y2="86.5632" width="0.1524" layer="16"/>
+<wire x1="172.212" y1="87.4776" x2="171.2976" y2="87.4776" width="0.1524" layer="16"/>
+<wire x1="173.1264" y1="88.392" x2="172.212" y2="87.4776" width="0.1524" layer="16"/>
+<wire x1="173.1264" y1="96.9264125" x2="173.1264" y2="88.392" width="0.1524" layer="16"/>
+<wire x1="112.943115625" y1="53.354715625" x2="103.9368" y2="44.3484" width="0.1524" layer="16"/>
+<wire x1="103.9368" y1="33.0708" x2="103.9368" y2="44.3484" width="0.1524" layer="16"/>
+<wire x1="105.4608" y1="31.5468" x2="103.9368" y2="33.0708" width="0.1524" layer="16"/>
+<wire x1="171.6024" y1="81.0768" x2="171.6532" y2="81.026" width="0.1524" layer="16"/>
+<wire x1="105.4608" y1="31.5468" x2="105.497978125" y2="31.537959375" width="0.1524" layer="16"/>
+<wire x1="171.20525625" y1="98.84755625" x2="154.758890625" y2="98.84755625" width="0.1524" layer="16"/>
+<wire x1="171.20525625" y1="98.84755625" x2="173.1264" y2="96.9264125" width="0.1524" layer="16"/>
+<wire x1="130.160334375" y1="79.58059375" x2="126.8507375" y2="79.58059375" width="0.1524" layer="16"/>
+<wire x1="126.8507375" y1="79.58059375" x2="115.7262375" y2="68.45609375" width="0.1524" layer="16"/>
+<wire x1="154.758890625" y1="98.84755625" x2="142.60520625" y2="86.693871875" width="0.1524" layer="16"/>
+<wire x1="142.60520625" y1="86.693871875" x2="137.2736125" y2="86.693871875" width="0.1524" layer="16"/>
+<wire x1="137.2736125" y1="86.693871875" x2="130.160334375" y2="79.58059375" width="0.1524" layer="16"/>
+<wire x1="115.7262375" y1="68.45609375" x2="115.7262375" y2="63.83923125" width="0.1524" layer="16"/>
+<wire x1="114.015071875" y1="62.128065625" x2="114.015071875" y2="54.403909375" width="0.1524" layer="16"/>
+<wire x1="114.015071875" y1="54.403909375" x2="112.965878125" y2="53.354715625" width="0.1524" layer="16"/>
+<wire x1="112.965878125" y1="53.354715625" x2="112.943115625" y2="53.354715625" width="0.1524" layer="16"/>
+<wire x1="115.7262375" y1="63.83923125" x2="114.015071875" y2="62.128065625" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$20">
+<contactref element="J4" pad="12"/>
+<contactref element="LS30" pad="1"/>
+<wire x1="171.7548" y1="84.582" x2="171.7548" y2="83.6676" width="0.1524" layer="16"/>
+<wire x1="174.880609375" y1="87.707809375" x2="171.7548" y2="84.582" width="0.1524" layer="16"/>
+<wire x1="174.880609375" y1="100.007275" x2="174.880609375" y2="87.707809375" width="0.1524" layer="16"/>
+<wire x1="112.776" y1="65.9892" x2="114.73618125" y2="67.94938125" width="0.1524" layer="16"/>
+<wire x1="112.776" y1="57.6072" x2="112.776" y2="65.9892" width="0.1524" layer="16"/>
+<wire x1="94.6404" y1="39.4716" x2="112.776" y2="57.6072" width="0.1524" layer="16"/>
+<wire x1="171.7548" y1="83.6676" x2="171.6532" y2="83.566" width="0.1524" layer="16"/>
+<wire x1="94.6404" y1="39.4716" x2="94.583571875" y2="39.416784375" width="0.1524" layer="16"/>
+<wire x1="136.529965625" y1="87.012728125" x2="132.508121875" y2="87.012728125" width="0.1524" layer="16"/>
+<wire x1="132.508121875" y1="87.012728125" x2="114.73618125" y2="69.2407875" width="0.1524" layer="16"/>
+<wire x1="114.73618125" y1="69.2407875" x2="114.73618125" y2="67.94938125" width="0.1524" layer="16"/>
+<wire x1="136.529965625" y1="87.012728125" x2="145.36935625" y2="95.85211875" width="0.1524" layer="16"/>
+<wire x1="154.272596875" y1="100.007275" x2="174.880609375" y2="100.007275" width="0.1524" layer="16"/>
+<wire x1="145.36935625" y1="95.85211875" x2="150.117440625" y2="95.85211875" width="0.1524" layer="16"/>
+<wire x1="150.117440625" y1="95.85211875" x2="154.272596875" y2="100.007275" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$21">
+<contactref element="J4" pad="10"/>
+<contactref element="LS29" pad="1"/>
+<wire x1="145.39599375" y1="95.2478625" x2="150.51231875" y2="95.2478625" width="0.1524" layer="16"/>
+<wire x1="171.6532" y1="86.106" x2="173.4312" y2="87.884" width="0.1524" layer="16"/>
+<wire x1="173.4312" y1="87.884" x2="173.4312" y2="97.05266875" width="0.1524" layer="16"/>
+<wire x1="173.4312" y1="97.05266875" x2="171.3315125" y2="99.15235625" width="0.1524" layer="16"/>
+<wire x1="171.3315125" y1="99.15235625" x2="154.4168125" y2="99.15235625" width="0.1524" layer="16"/>
+<wire x1="154.4168125" y1="99.15235625" x2="150.51231875" y2="95.2478625" width="0.1524" layer="16"/>
+<wire x1="130.034125" y1="79.88539375" x2="126.72448125" y2="79.88539375" width="0.1524" layer="16"/>
+<wire x1="136.802509375" y1="86.653778125" x2="130.034125" y2="79.88539375" width="0.1524" layer="16"/>
+<wire x1="137.65590625" y1="87.507775" x2="137.65590625" y2="87.50721875" width="0.1524" layer="16"/>
+<wire x1="137.65590625" y1="87.50721875" x2="136.8024875" y2="86.6538" width="0.1524" layer="16"/>
+<wire x1="136.8024875" y1="86.6538" x2="136.8024875" y2="86.65435625" width="0.1524" layer="16"/>
+<wire x1="136.8024875" y1="86.65435625" x2="145.39599375" y2="95.2478625" width="0.1524" layer="16"/>
+<wire x1="126.72448125" y1="79.88539375" x2="115.04098125" y2="68.20189375" width="0.1524" layer="16"/>
+<wire x1="103.632" y1="37.11423125" x2="94.583571875" y2="28.065803125" width="0.1524" layer="16"/>
+<wire x1="103.632" y1="44.47465625" x2="103.632" y2="37.11423125" width="0.1524" layer="16"/>
+<wire x1="113.224296875" y1="54.066953125" x2="103.632" y2="44.47465625" width="0.1524" layer="16"/>
+<wire x1="113.224296875" y1="61.879896875" x2="113.224296875" y2="54.066953125" width="0.1524" layer="16"/>
+<wire x1="115.04098125" y1="63.69658125" x2="113.224296875" y2="61.879896875" width="0.1524" layer="16"/>
+<wire x1="115.04098125" y1="68.20189375" x2="115.04098125" y2="63.69658125" width="0.1524" layer="16"/>
+<wire x1="137.65590625" y1="87.507775" x2="136.802509375" y2="86.653778125" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="N$22">
+<contactref element="J4" pad="8"/>
+<contactref element="LS28" pad="1"/>
+<wire x1="170.688" y1="88.5444" x2="171.6024" y2="88.5444" width="0.1524" layer="16"/>
+<wire x1="169.6212" y1="87.4776" x2="170.688" y2="88.5444" width="0.1524" layer="16"/>
+<wire x1="166.2684" y1="87.4776" x2="169.6212" y2="87.4776" width="0.1524" layer="16"/>
+<wire x1="161.3916" y1="92.3544" x2="166.2684" y2="87.4776" width="0.1524" layer="16"/>
+<wire x1="156.949684375" y1="92.3544" x2="161.3916" y2="92.3544" width="0.1524" layer="16"/>
+<wire x1="143.081284375" y1="78.486" x2="156.949684375" y2="92.3544" width="0.1524" layer="16"/>
+<wire x1="129.0828" y1="78.486" x2="143.081284375" y2="78.486" width="0.1524" layer="16"/>
+<wire x1="128.016" y1="77.4192" x2="129.0828" y2="78.486" width="0.1524" layer="16"/>
+<wire x1="127.1016" y1="77.4192" x2="128.016" y2="77.4192" width="0.1524" layer="16"/>
+<wire x1="171.6024" y1="88.5444" x2="171.6532" y2="88.646" width="0.1524" layer="16"/>
+<wire x1="127.1016" y1="77.4192" x2="127.06815" y2="77.276871875" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$23">
+<contactref element="J4" pad="6"/>
+<contactref element="LS27" pad="1"/>
+<wire x1="170.688" y1="91.2876" x2="171.6024" y2="91.2876" width="0.1524" layer="16"/>
+<wire x1="169.4688" y1="92.5068" x2="170.688" y2="91.2876" width="0.1524" layer="16"/>
+<wire x1="163.6776" y1="92.5068" x2="169.4688" y2="92.5068" width="0.1524" layer="16"/>
+<wire x1="161.3916" y1="94.7928" x2="163.6776" y2="92.5068" width="0.1524" layer="16"/>
+<wire x1="157.766015625" y1="94.7928" x2="161.3916" y2="94.7928" width="0.1524" layer="16"/>
+<wire x1="141.764015625" y1="78.7908" x2="157.766015625" y2="94.7928" width="0.1524" layer="16"/>
+<wire x1="128.9304" y1="78.7908" x2="141.764015625" y2="78.7908" width="0.1524" layer="16"/>
+<wire x1="128.6256" y1="78.486" x2="128.9304" y2="78.7908" width="0.1524" layer="16"/>
+<wire x1="126.6444" y1="78.486" x2="128.6256" y2="78.486" width="0.1524" layer="16"/>
+<wire x1="125.8824" y1="77.724" x2="126.6444" y2="78.486" width="0.1524" layer="16"/>
+<wire x1="125.8824" y1="66.5988" x2="125.8824" y2="77.724" width="0.1524" layer="16"/>
+<wire x1="126.9492" y1="65.532" x2="125.8824" y2="66.5988" width="0.1524" layer="16"/>
+<wire x1="171.6024" y1="91.2876" x2="171.6532" y2="91.186" width="0.1524" layer="16"/>
+<wire x1="126.9492" y1="65.532" x2="127.06815" y2="65.45216875" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$25">
+<contactref element="J4" pad="2"/>
+<contactref element="LS25" pad="1"/>
+<wire x1="170.688" y1="96.3168" x2="171.6024" y2="96.3168" width="0.1524" layer="16"/>
+<wire x1="169.00135" y1="98.00345" x2="170.688" y2="96.3168" width="0.1524" layer="16"/>
+<wire x1="155.782615625" y1="98.00345" x2="169.00135" y2="98.00345" width="0.1524" layer="16"/>
+<wire x1="152.7048" y1="94.925634375" x2="155.782615625" y2="98.00345" width="0.1524" layer="16"/>
+<wire x1="152.7048" y1="91.44" x2="152.7048" y2="94.925634375" width="0.1524" layer="16"/>
+<wire x1="152.7048" y1="91.44" x2="147.485190625" y2="86.220390625" width="0.1524" layer="16"/>
+<wire x1="128.42175" y1="78.7908" x2="126.492" y2="78.7908" width="0.1524" layer="16"/>
+<wire x1="116.2812" y1="68.58" x2="126.492" y2="78.7908" width="0.1524" layer="16"/>
+<wire x1="116.2812" y1="62.484" x2="116.2812" y2="68.58" width="0.1524" layer="16"/>
+<wire x1="171.6024" y1="96.3168" x2="171.6532" y2="96.266" width="0.1524" layer="16"/>
+<wire x1="116.2812" y1="62.484" x2="116.164990625" y2="62.47275" width="0.1524" layer="16"/>
+<wire x1="147.485190625" y1="86.220390625" x2="137.486646875" y2="86.220390625" width="0.1524" layer="16"/>
+<wire x1="128.906740625" y1="79.275790625" x2="128.42175" y2="78.7908" width="0.1524" layer="16"/>
+<wire x1="137.486646875" y1="86.220390625" x2="130.542046875" y2="79.275790625" width="0.1524" layer="16"/>
+<wire x1="130.542046875" y1="79.275790625" x2="128.906740625" y2="79.275790625" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$26">
+<contactref element="J3" pad="16"/>
+<contactref element="LS24" pad="1"/>
+<wire x1="170.688" y1="48.768" x2="171.5516" y2="48.768" width="0.1524" layer="16"/>
+<wire x1="152.5524" y1="30.6324" x2="170.688" y2="48.768" width="0.1524" layer="16"/>
+<wire x1="150.4188" y1="30.6324" x2="152.5524" y2="30.6324" width="0.1524" layer="16"/>
+<wire x1="140.97" y1="21.1836" x2="150.4188" y2="30.6324" width="0.1524" layer="16"/>
+<wire x1="119.9388" y1="21.1836" x2="140.97" y2="21.1836" width="0.1524" layer="16"/>
+<wire x1="116.2812" y1="24.8412" x2="119.9388" y2="21.1836" width="0.1524" layer="16"/>
+<wire x1="116.2812" y1="24.8412" x2="116.164990625" y2="24.885196875" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$27">
+<contactref element="J3" pad="14"/>
+<contactref element="LS23" pad="1"/>
+<wire x1="170.688" y1="51.3588" x2="171.45" y2="51.3588" width="0.1524" layer="16"/>
+<wire x1="169.4688" y1="52.578" x2="170.688" y2="51.3588" width="0.1524" layer="16"/>
+<wire x1="166.4208" y1="52.578" x2="169.4688" y2="52.578" width="0.1524" layer="16"/>
+<wire x1="161.3916" y1="57.6072" x2="166.4208" y2="52.578" width="0.1524" layer="16"/>
+<wire x1="160.4772" y1="57.6072" x2="161.3916" y2="57.6072" width="0.1524" layer="16"/>
+<wire x1="159.5628" y1="56.6928" x2="160.4772" y2="57.6072" width="0.1524" layer="16"/>
+<wire x1="159.5628" y1="55.9308" x2="159.5628" y2="56.6928" width="0.1524" layer="16"/>
+<wire x1="158.79223125" y1="55.16023125" x2="159.5628" y2="55.9308" width="0.1524" layer="16"/>
+<wire x1="156.698921875" y1="55.16023125" x2="158.79223125" y2="55.16023125" width="0.1524" layer="16"/>
+<wire x1="132.690059375" y1="31.5468" x2="137.3683125" y2="36.225053125" width="0.1524" layer="16"/>
+<wire x1="120.7008" y1="31.5468" x2="132.690059375" y2="31.5468" width="0.1524" layer="16"/>
+<wire x1="114.6048" y1="25.4508" x2="120.7008" y2="31.5468" width="0.1524" layer="16"/>
+<wire x1="114.6048" y1="14.0208" x2="114.6048" y2="25.4508" width="0.1524" layer="16"/>
+<wire x1="116.1288" y1="12.4968" x2="114.6048" y2="14.0208" width="0.1524" layer="16"/>
+<wire x1="171.45" y1="51.3588" x2="171.5516" y2="51.308" width="0.1524" layer="16"/>
+<wire x1="116.1288" y1="12.4968" x2="116.164990625" y2="12.3560125" width="0.1524" layer="16"/>
+<wire x1="137.3683125" y1="36.225053125" x2="139.43894375" y2="36.225053125" width="0.1524" layer="16"/>
+<wire x1="139.43894375" y1="36.225053125" x2="139.4604875" y2="36.203509375" width="0.1524" layer="16"/>
+<wire x1="139.4604875" y1="36.203509375" x2="156.698921875" y2="53.44194375" width="0.1524" layer="16"/>
+<wire x1="156.698921875" y1="53.44194375" x2="156.698921875" y2="55.16023125" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$28">
+<contactref element="J3" pad="12"/>
+<contactref element="LS22" pad="1"/>
+<wire x1="171.6024" y1="53.34" x2="171.6024" y2="53.7972" width="0.1524" layer="16"/>
+<wire x1="173.4312" y1="51.5112" x2="171.6024" y2="53.34" width="0.1524" layer="16"/>
+<wire x1="173.4312" y1="48.006" x2="173.4312" y2="51.5112" width="0.1524" layer="16"/>
+<wire x1="142.3416" y1="16.9164" x2="173.4312" y2="48.006" width="0.1524" layer="16"/>
+<wire x1="122.5296" y1="16.9164" x2="142.3416" y2="16.9164" width="0.1524" layer="16"/>
+<wire x1="114.9096" y1="24.5364" x2="122.5296" y2="16.9164" width="0.1524" layer="16"/>
+<wire x1="114.9096" y1="25.2984" x2="114.9096" y2="24.5364" width="0.1524" layer="16"/>
+<wire x1="115.6716" y1="26.0604" x2="114.9096" y2="25.2984" width="0.1524" layer="16"/>
+<wire x1="128.9304" y1="26.0604" x2="115.6716" y2="26.0604" width="0.1524" layer="16"/>
+<wire x1="133.5024" y1="21.4884" x2="128.9304" y2="26.0604" width="0.1524" layer="16"/>
+<wire x1="138.2268" y1="21.4884" x2="133.5024" y2="21.4884" width="0.1524" layer="16"/>
+<wire x1="139.1412" y1="22.4028" x2="138.2268" y2="21.4884" width="0.1524" layer="16"/>
+<wire x1="139.1412" y1="23.1648" x2="139.1412" y2="22.4028" width="0.1524" layer="16"/>
+<wire x1="133.5024" y1="28.8036" x2="139.1412" y2="23.1648" width="0.1524" layer="16"/>
+<wire x1="128.1684" y1="28.8036" x2="133.5024" y2="28.8036" width="0.1524" layer="16"/>
+<wire x1="127.1016" y1="29.8704" x2="128.1684" y2="28.8036" width="0.1524" layer="16"/>
+<wire x1="171.6024" y1="53.7972" x2="171.5516" y2="53.848" width="0.1524" layer="16"/>
+<wire x1="127.1016" y1="29.8704" x2="127.06815" y2="29.978059375" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$29">
+<contactref element="J3" pad="10"/>
+<contactref element="LS21" pad="1"/>
+<wire x1="171.45" y1="55.4736" x2="171.45" y2="56.388" width="0.1524" layer="16"/>
+<wire x1="170.3832" y1="54.4068" x2="171.45" y2="55.4736" width="0.1524" layer="16"/>
+<wire x1="170.3832" y1="53.34" x2="170.3832" y2="54.4068" width="0.1524" layer="16"/>
+<wire x1="171.1452" y1="52.578" x2="170.3832" y2="53.34" width="0.1524" layer="16"/>
+<wire x1="171.9072" y1="52.578" x2="171.1452" y2="52.578" width="0.1524" layer="16"/>
+<wire x1="173.1264" y1="51.3588" x2="171.9072" y2="52.578" width="0.1524" layer="16"/>
+<wire x1="173.1264" y1="48.1584" x2="173.1264" y2="51.3588" width="0.1524" layer="16"/>
+<wire x1="144.3228" y1="19.3548" x2="173.1264" y2="48.1584" width="0.1524" layer="16"/>
+<wire x1="128.1684" y1="19.3548" x2="144.3228" y2="19.3548" width="0.1524" layer="16"/>
+<wire x1="127.1016" y1="18.288" x2="128.1684" y2="19.3548" width="0.1524" layer="16"/>
+<wire x1="171.45" y1="56.388" x2="171.5516" y2="56.388" width="0.1524" layer="16"/>
+<wire x1="127.1016" y1="18.288" x2="127.06815" y2="18.15335625" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$30">
+<contactref element="J3" pad="8"/>
+<contactref element="LS20" pad="1"/>
+<wire x1="170.688" y1="58.9788" x2="171.45" y2="58.9788" width="0.1524" layer="16"/>
+<wire x1="169.4688" y1="60.198" x2="170.688" y2="58.9788" width="0.1524" layer="16"/>
+<wire x1="168.5544" y1="60.198" x2="169.4688" y2="60.198" width="0.1524" layer="16"/>
+<wire x1="162.7632" y1="65.9892" x2="168.5544" y2="60.198" width="0.1524" layer="16"/>
+<wire x1="162.7632" y1="88.392" x2="162.7632" y2="65.9892" width="0.1524" layer="16"/>
+<wire x1="161.3916" y1="89.7636" x2="162.7632" y2="88.392" width="0.1524" layer="16"/>
+<wire x1="160.4772" y1="89.7636" x2="161.3916" y2="89.7636" width="0.1524" layer="16"/>
+<wire x1="159.5628" y1="88.8492" x2="160.4772" y2="89.7636" width="0.1524" layer="16"/>
+<wire x1="159.5628" y1="88.0872" x2="159.5628" y2="88.8492" width="0.1524" layer="16"/>
+<wire x1="158.6484" y1="87.1728" x2="159.5628" y2="88.0872" width="0.1524" layer="16"/>
+<wire x1="155.2956" y1="87.1728" x2="158.6484" y2="87.1728" width="0.1524" layer="16"/>
+<wire x1="139.1412" y1="71.0184" x2="155.2956" y2="87.1728" width="0.1524" layer="16"/>
+<wire x1="139.1412" y1="70.4088" x2="139.1412" y2="71.0184" width="0.1524" layer="16"/>
+<wire x1="119.9388" y1="51.2064" x2="139.1412" y2="70.4088" width="0.1524" layer="16"/>
+<wire x1="111.252" y1="51.2064" x2="119.9388" y2="51.2064" width="0.1524" layer="16"/>
+<wire x1="104.2416" y1="44.196" x2="111.252" y2="51.2064" width="0.1524" layer="16"/>
+<wire x1="104.2416" y1="34.4424" x2="104.2416" y2="44.196" width="0.1524" layer="16"/>
+<wire x1="106.68" y1="32.004" x2="104.2416" y2="34.4424" width="0.1524" layer="16"/>
+<wire x1="106.68" y1="28.8036" x2="106.68" y2="32.004" width="0.1524" layer="16"/>
+<wire x1="94.6404" y1="16.764" x2="106.68" y2="28.8036" width="0.1524" layer="16"/>
+<wire x1="171.45" y1="58.9788" x2="171.5516" y2="58.928" width="0.1524" layer="16"/>
+<wire x1="94.6404" y1="16.764" x2="94.583571875" y2="16.714821875" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$31">
+<contactref element="J3" pad="6"/>
+<contactref element="LS19" pad="1"/>
+<wire x1="171.45" y1="62.484" x2="171.45" y2="61.5696" width="0.1524" layer="16"/>
+<wire x1="170.3832" y1="63.5508" x2="171.45" y2="62.484" width="0.1524" layer="16"/>
+<wire x1="170.3832" y1="64.4652" x2="170.3832" y2="63.5508" width="0.1524" layer="16"/>
+<wire x1="171.1452" y1="65.2272" x2="170.3832" y2="64.4652" width="0.1524" layer="16"/>
+<wire x1="172.0596" y1="65.2272" x2="171.1452" y2="65.2272" width="0.1524" layer="16"/>
+<wire x1="174.0408" y1="63.246" x2="172.0596" y2="65.2272" width="0.1524" layer="16"/>
+<wire x1="174.0408" y1="47.7012" x2="174.0408" y2="63.246" width="0.1524" layer="16"/>
+<wire x1="136.0932" y1="9.7536" x2="174.0408" y2="47.7012" width="0.1524" layer="16"/>
+<wire x1="98.9076" y1="9.7536" x2="136.0932" y2="9.7536" width="0.1524" layer="16"/>
+<wire x1="94.6404" y1="5.4864" x2="98.9076" y2="9.7536" width="0.1524" layer="16"/>
+<wire x1="171.45" y1="61.5696" x2="171.5516" y2="61.468" width="0.1524" layer="16"/>
+<wire x1="94.6404" y1="5.4864" x2="94.583571875" y2="5.363840625" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$32">
+<contactref element="J3" pad="4"/>
+<contactref element="LS18" pad="1"/>
+<wire x1="171.6024" y1="63.0936" x2="171.6024" y2="64.008" width="0.1524" layer="16"/>
+<wire x1="173.736" y1="60.96" x2="171.6024" y2="63.0936" width="0.1524" layer="16"/>
+<wire x1="173.736" y1="47.8536" x2="173.736" y2="60.96" width="0.1524" layer="16"/>
+<wire x1="137.0076" y1="11.1252" x2="173.736" y2="47.8536" width="0.1524" layer="16"/>
+<wire x1="113.6904" y1="11.1252" x2="137.0076" y2="11.1252" width="0.1524" layer="16"/>
+<wire x1="105.6132" y1="19.2024" x2="113.6904" y2="11.1252" width="0.1524" layer="16"/>
+<wire x1="171.6024" y1="64.008" x2="171.5516" y2="64.008" width="0.1524" layer="16"/>
+<wire x1="105.6132" y1="19.2024" x2="105.497978125" y2="19.347878125" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$33">
+<contactref element="J3" pad="2"/>
+<contactref element="LS17" pad="1"/>
+<wire x1="171.6024" y1="66.1416" x2="171.6024" y2="66.4464" width="0.1524" layer="16"/>
+<wire x1="174.3456" y1="63.3984" x2="171.6024" y2="66.1416" width="0.1524" layer="16"/>
+<wire x1="174.3456" y1="47.5488" x2="174.3456" y2="63.3984" width="0.1524" layer="16"/>
+<wire x1="136.2456" y1="9.4488" x2="174.3456" y2="47.5488" width="0.1524" layer="16"/>
+<wire x1="107.8992" y1="9.4488" x2="136.2456" y2="9.4488" width="0.1524" layer="16"/>
+<wire x1="105.6132" y1="7.1628" x2="107.8992" y2="9.4488" width="0.1524" layer="16"/>
+<wire x1="171.6024" y1="66.4464" x2="171.5516" y2="66.548" width="0.1524" layer="16"/>
+<wire x1="105.6132" y1="7.1628" x2="105.497978125" y2="7.157796875" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$34">
+<contactref element="J5" pad="16"/>
+<contactref element="LS40" pad="1"/>
+<wire x1="25.908" y1="48.9204" x2="24.2316" y2="48.9204" width="0.1524" layer="16"/>
+<wire x1="32.4612" y1="42.3672" x2="25.908" y2="48.9204" width="0.1524" layer="16"/>
+<wire x1="32.4612" y1="30.48" x2="32.4612" y2="42.3672" width="0.1524" layer="16"/>
+<wire x1="31.3944" y1="29.4132" x2="32.4612" y2="30.48" width="0.1524" layer="16"/>
+<wire x1="24.2316" y1="48.9204" x2="24.1808" y2="48.9966" width="0.1524" layer="16"/>
+<wire x1="31.3944" y1="29.4132" x2="31.249928125" y2="29.358896875" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$35">
+<contactref element="J5" pad="14"/>
+<contactref element="LS39" pad="1"/>
+<wire x1="24.2316" y1="51.2064" x2="24.2316" y2="51.5112" width="0.1524" layer="16"/>
+<wire x1="24.2316" y1="51.2064" x2="36.651915625" y2="38.786084375" width="0.1524" layer="16"/>
+<wire x1="40.5384" y1="32.653703125" x2="40.5384" y2="24.5364" width="0.1524" layer="16"/>
+<wire x1="24.2316" y1="51.5112" x2="24.1808" y2="51.5366" width="0.1524" layer="16"/>
+<wire x1="40.5384" y1="24.5364" x2="40.658415625" y2="24.505821875" width="0.1524" layer="16"/>
+<wire x1="36.651915625" y1="38.786084375" x2="36.651915625" y2="36.5401875" width="0.1524" layer="16"/>
+<wire x1="36.651915625" y1="36.5401875" x2="40.5384" y2="32.653703125" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$36">
+<contactref element="J5" pad="12"/>
+<contactref element="LS38" pad="1"/>
+<wire x1="24.1808" y1="54.0766" x2="40.658415625" y2="37.598984375" width="0.1524" layer="16"/>
+<wire x1="40.658415625" y1="37.598984375" x2="40.658415625" y2="36.511615625" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$37">
+<contactref element="J5" pad="10"/>
+<contactref element="LS37" pad="1"/>
+<wire x1="26.5176" y1="56.5404" x2="24.2316" y2="56.5404" width="0.1524" layer="16"/>
+<wire x1="43.8912" y1="39.1668" x2="26.5176" y2="56.5404" width="0.1524" layer="16"/>
+<wire x1="62.9412" y1="39.1668" x2="43.8912" y2="39.1668" width="0.1524" layer="16"/>
+<wire x1="64.008" y1="38.1" x2="62.9412" y2="39.1668" width="0.1524" layer="16"/>
+<wire x1="64.008" y1="35.5092" x2="64.008" y2="38.1" width="0.1524" layer="16"/>
+<wire x1="52.578" y1="24.0792" x2="64.008" y2="35.5092" width="0.1524" layer="16"/>
+<wire x1="42.0624" y1="24.0792" x2="52.578" y2="24.0792" width="0.1524" layer="16"/>
+<wire x1="41.148" y1="23.1648" x2="42.0624" y2="24.0792" width="0.1524" layer="16"/>
+<wire x1="35.6616" y1="23.1648" x2="41.148" y2="23.1648" width="0.1524" layer="16"/>
+<wire x1="30.0228" y1="28.8036" x2="35.6616" y2="23.1648" width="0.1524" layer="16"/>
+<wire x1="30.0228" y1="40.5384" x2="30.0228" y2="28.8036" width="0.1524" layer="16"/>
+<wire x1="31.242" y1="41.7576" x2="30.0228" y2="40.5384" width="0.1524" layer="16"/>
+<wire x1="24.2316" y1="56.5404" x2="24.1808" y2="56.6166" width="0.1524" layer="16"/>
+<wire x1="31.242" y1="41.7576" x2="31.249928125" y2="41.885525" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$38">
+<contactref element="J5" pad="8"/>
+<contactref element="LS36" pad="1"/>
+<wire x1="24.8412" y1="59.1312" x2="24.2316" y2="59.1312" width="0.1524" layer="16"/>
+<wire x1="30.7848" y1="53.1876" x2="24.8412" y2="59.1312" width="0.1524" layer="16"/>
+<wire x1="49.2252" y1="53.1876" x2="30.7848" y2="53.1876" width="0.1524" layer="16"/>
+<wire x1="50.9016" y1="54.864" x2="49.2252" y2="53.1876" width="0.1524" layer="16"/>
+<wire x1="51.6636" y1="54.864" x2="50.9016" y2="54.864" width="0.1524" layer="16"/>
+<wire x1="52.578" y1="53.9496" x2="51.6636" y2="54.864" width="0.1524" layer="16"/>
+<wire x1="52.578" y1="43.1292" x2="52.578" y2="53.9496" width="0.1524" layer="16"/>
+<wire x1="51.3588" y1="41.91" x2="52.578" y2="43.1292" width="0.1524" layer="16"/>
+<wire x1="24.2316" y1="59.1312" x2="24.1808" y2="59.1566" width="0.1524" layer="16"/>
+<wire x1="51.3588" y1="41.91" x2="51.30044375" y2="41.8027625" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$39">
+<contactref element="J5" pad="6"/>
+<contactref element="LS35" pad="1"/>
+<wire x1="24.0792" y1="60.6552" x2="24.0792" y2="61.5696" width="0.1524" layer="16"/>
+<wire x1="23.0124" y1="59.5884" x2="24.0792" y2="60.6552" width="0.1524" layer="16"/>
+<wire x1="23.0124" y1="58.674" x2="23.0124" y2="59.5884" width="0.1524" layer="16"/>
+<wire x1="23.9268" y1="57.7596" x2="23.0124" y2="58.674" width="0.1524" layer="16"/>
+<wire x1="25.7556" y1="57.7596" x2="23.9268" y2="57.7596" width="0.1524" layer="16"/>
+<wire x1="30.6324" y1="52.8828" x2="25.7556" y2="57.7596" width="0.1524" layer="16"/>
+<wire x1="50.5968" y1="52.8828" x2="30.6324" y2="52.8828" width="0.1524" layer="16"/>
+<wire x1="51.2064" y1="53.4924" x2="50.5968" y2="52.8828" width="0.1524" layer="16"/>
+<wire x1="24.0792" y1="61.5696" x2="24.1808" y2="61.6966" width="0.1524" layer="16"/>
+<wire x1="51.2064" y1="53.4924" x2="51.30044375" y2="53.627465625" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$40">
+<contactref element="J5" pad="4"/>
+<contactref element="LS34" pad="1"/>
+<wire x1="24.0792" y1="63.246" x2="24.0792" y2="64.1604" width="0.1524" layer="16"/>
+<wire x1="22.86" y1="62.0268" x2="24.0792" y2="63.246" width="0.1524" layer="16"/>
+<wire x1="22.86" y1="61.2648" x2="22.86" y2="62.0268" width="0.1524" layer="16"/>
+<wire x1="21.9456" y1="60.3504" x2="22.86" y2="61.2648" width="0.1524" layer="16"/>
+<wire x1="21.1836" y1="60.3504" x2="21.9456" y2="60.3504" width="0.1524" layer="16"/>
+<wire x1="20.4216" y1="59.5884" x2="21.1836" y2="60.3504" width="0.1524" layer="16"/>
+<wire x1="20.4216" y1="58.674" x2="20.4216" y2="59.5884" width="0.1524" layer="16"/>
+<wire x1="21.336" y1="57.7596" x2="20.4216" y2="58.674" width="0.1524" layer="16"/>
+<wire x1="22.098" y1="57.7596" x2="21.336" y2="57.7596" width="0.1524" layer="16"/>
+<wire x1="23.0124" y1="56.8452" x2="22.098" y2="57.7596" width="0.1524" layer="16"/>
+<wire x1="23.0124" y1="56.0832" x2="23.0124" y2="56.8452" width="0.1524" layer="16"/>
+<wire x1="23.7744" y1="55.3212" x2="23.0124" y2="56.0832" width="0.1524" layer="16"/>
+<wire x1="27.2796" y1="55.3212" x2="23.7744" y2="55.3212" width="0.1524" layer="16"/>
+<wire x1="43.7388" y1="38.862" x2="27.2796" y2="55.3212" width="0.1524" layer="16"/>
+<wire x1="62.7888" y1="38.862" x2="43.7388" y2="38.862" width="0.1524" layer="16"/>
+<wire x1="63.7032" y1="37.9476" x2="62.7888" y2="38.862" width="0.1524" layer="16"/>
+<wire x1="63.7032" y1="35.6616" x2="63.7032" y2="37.9476" width="0.1524" layer="16"/>
+<wire x1="56.8452" y1="28.8036" x2="63.7032" y2="35.6616" width="0.1524" layer="16"/>
+<wire x1="50.7492" y1="28.8036" x2="56.8452" y2="28.8036" width="0.1524" layer="16"/>
+<wire x1="50.1396" y1="29.4132" x2="50.7492" y2="28.8036" width="0.1524" layer="16"/>
+<wire x1="50.1396" y1="30.48" x2="50.1396" y2="29.4132" width="0.1524" layer="16"/>
+<wire x1="56.9976" y1="37.338" x2="50.1396" y2="30.48" width="0.1524" layer="16"/>
+<wire x1="62.0268" y1="37.338" x2="56.9976" y2="37.338" width="0.1524" layer="16"/>
+<wire x1="24.0792" y1="64.1604" x2="24.1808" y2="64.2366" width="0.1524" layer="16"/>
+<wire x1="62.0268" y1="37.338" x2="62.17619375" y2="37.41438125" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$41">
+<contactref element="J5" pad="2"/>
+<contactref element="LS33" pad="1"/>
+<wire x1="24.2316" y1="67.9704" x2="24.2316" y2="66.9036" width="0.1524" layer="16"/>
+<wire x1="25.4508" y1="69.1896" x2="24.2316" y2="67.9704" width="0.1524" layer="16"/>
+<wire x1="25.4508" y1="79.248" x2="25.4508" y2="69.1896" width="0.1524" layer="16"/>
+<wire x1="24.5364" y1="80.1624" x2="25.4508" y2="79.248" width="0.1524" layer="16"/>
+<wire x1="23.7744" y1="80.1624" x2="24.5364" y2="80.1624" width="0.1524" layer="16"/>
+<wire x1="23.0124" y1="80.9244" x2="23.7744" y2="80.1624" width="0.1524" layer="16"/>
+<wire x1="23.0124" y1="81.6864" x2="23.0124" y2="80.9244" width="0.1524" layer="16"/>
+<wire x1="23.7744" y1="82.4484" x2="23.0124" y2="81.6864" width="0.1524" layer="16"/>
+<wire x1="24.8412" y1="82.4484" x2="23.7744" y2="82.4484" width="0.1524" layer="16"/>
+<wire x1="29.4132" y1="77.8764" x2="24.8412" y2="82.4484" width="0.1524" layer="16"/>
+<wire x1="29.4132" y1="66.5988" x2="29.4132" y2="77.8764" width="0.1524" layer="16"/>
+<wire x1="40.5384" y1="55.4736" x2="29.4132" y2="66.5988" width="0.1524" layer="16"/>
+<wire x1="56.5404" y1="55.4736" x2="40.5384" y2="55.4736" width="0.1524" layer="16"/>
+<wire x1="62.0268" y1="49.9872" x2="56.5404" y2="55.4736" width="0.1524" layer="16"/>
+<wire x1="24.2316" y1="66.9036" x2="24.1808" y2="66.7766" width="0.1524" layer="16"/>
+<wire x1="62.0268" y1="49.9872" x2="62.17619375" y2="49.943565625" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$42">
+<contactref element="J6" pad="16"/>
+<contactref element="LS48" pad="1"/>
+<wire x1="24.2316" y1="68.4276" x2="24.2316" y2="78.6384" width="0.1524" layer="16"/>
+<wire x1="23.0124" y1="67.2084" x2="24.2316" y2="68.4276" width="0.1524" layer="16"/>
+<wire x1="23.0124" y1="66.294" x2="23.0124" y2="67.2084" width="0.1524" layer="16"/>
+<wire x1="23.9268" y1="65.3796" x2="23.0124" y2="66.294" width="0.1524" layer="16"/>
+<wire x1="24.6888" y1="65.3796" x2="23.9268" y2="65.3796" width="0.1524" layer="16"/>
+<wire x1="31.242" y1="58.8264" x2="24.6888" y2="65.3796" width="0.1524" layer="16"/>
+<wire x1="31.242" y1="54.5592" x2="31.242" y2="58.8264" width="0.1524" layer="16"/>
+<wire x1="24.2316" y1="78.6384" x2="24.2824" y2="78.7654" width="0.1524" layer="16"/>
+<wire x1="31.242" y1="54.5592" x2="31.249928125" y2="54.412153125" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$43">
+<contactref element="J6" pad="14"/>
+<contactref element="LS47" pad="1"/>
+<wire x1="24.384" y1="80.772" x2="24.384" y2="81.2292" width="0.1524" layer="16"/>
+<wire x1="29.1084" y1="76.0476" x2="24.384" y2="80.772" width="0.1524" layer="16"/>
+<wire x1="29.1084" y1="66.4464" x2="29.1084" y2="76.0476" width="0.1524" layer="16"/>
+<wire x1="40.386" y1="55.1688" x2="29.1084" y2="66.4464" width="0.1524" layer="16"/>
+<wire x1="51.816" y1="55.1688" x2="40.386" y2="55.1688" width="0.1524" layer="16"/>
+<wire x1="52.8828" y1="54.102" x2="51.816" y2="55.1688" width="0.1524" layer="16"/>
+<wire x1="52.8828" y1="41.7576" x2="52.8828" y2="54.102" width="0.1524" layer="16"/>
+<wire x1="51.6636" y1="40.5384" x2="52.8828" y2="41.7576" width="0.1524" layer="16"/>
+<wire x1="48.6156" y1="40.5384" x2="51.6636" y2="40.5384" width="0.1524" layer="16"/>
+<wire x1="40.6908" y1="48.4632" x2="48.6156" y2="40.5384" width="0.1524" layer="16"/>
+<wire x1="24.384" y1="81.2292" x2="24.2824" y2="81.3054" width="0.1524" layer="16"/>
+<wire x1="40.6908" y1="48.4632" x2="40.658415625" y2="48.517409375" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$44">
+<contactref element="J6" pad="12"/>
+<contactref element="LS46" pad="1"/>
+<wire x1="24.2316" y1="84.7344" x2="24.2316" y2="83.9724" width="0.1524" layer="16"/>
+<wire x1="23.0124" y1="85.9536" x2="24.2316" y2="84.7344" width="0.1524" layer="16"/>
+<wire x1="23.0124" y1="86.7156" x2="23.0124" y2="85.9536" width="0.1524" layer="16"/>
+<wire x1="23.9268" y1="87.63" x2="23.0124" y2="86.7156" width="0.1524" layer="16"/>
+<wire x1="24.6888" y1="87.63" x2="23.9268" y2="87.63" width="0.1524" layer="16"/>
+<wire x1="30.0228" y1="82.296" x2="24.6888" y2="87.63" width="0.1524" layer="16"/>
+<wire x1="30.0228" y1="68.2752" x2="30.0228" y2="82.296" width="0.1524" layer="16"/>
+<wire x1="31.242" y1="67.056" x2="30.0228" y2="68.2752" width="0.1524" layer="16"/>
+<wire x1="24.2316" y1="83.9724" x2="24.2824" y2="83.8454" width="0.1524" layer="16"/>
+<wire x1="31.242" y1="67.056" x2="31.249928125" y2="66.93878125" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$45">
+<contactref element="J6" pad="10"/>
+<contactref element="LS45" pad="1"/>
+<wire x1="24.384" y1="85.344" x2="24.384" y2="86.2584" width="0.1524" layer="16"/>
+<wire x1="29.718" y1="80.01" x2="24.384" y2="85.344" width="0.1524" layer="16"/>
+<wire x1="29.718" y1="66.7512" x2="29.718" y2="80.01" width="0.1524" layer="16"/>
+<wire x1="35.814" y1="60.6552" x2="29.718" y2="66.7512" width="0.1524" layer="16"/>
+<wire x1="40.5384" y1="60.6552" x2="35.814" y2="60.6552" width="0.1524" layer="16"/>
+<wire x1="24.384" y1="86.2584" x2="24.2824" y2="86.3854" width="0.1524" layer="16"/>
+<wire x1="40.5384" y1="60.6552" x2="40.658415625" y2="60.523203125" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$46">
+<contactref element="J6" pad="8"/>
+<contactref element="LS44" pad="1"/>
+<wire x1="24.384" y1="88.392" x2="24.384" y2="88.8492" width="0.1524" layer="16"/>
+<wire x1="31.242" y1="81.534" x2="24.384" y2="88.392" width="0.1524" layer="16"/>
+<wire x1="31.242" y1="79.5528" x2="31.242" y2="81.534" width="0.1524" layer="16"/>
+<wire x1="24.384" y1="88.8492" x2="24.2824" y2="88.9254" width="0.1524" layer="16"/>
+<wire x1="31.242" y1="79.5528" x2="31.249928125" y2="79.465409375" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$47">
+<contactref element="J6" pad="6"/>
+<contactref element="LS43" pad="1"/>
+<wire x1="24.384" y1="90.5256" x2="24.384" y2="91.44" width="0.1524" layer="16"/>
+<wire x1="40.5384" y1="74.3712" x2="24.384" y2="90.5256" width="0.1524" layer="16"/>
+<wire x1="40.5384" y1="72.5424" x2="40.5384" y2="74.3712" width="0.1524" layer="16"/>
+<wire x1="24.384" y1="91.44" x2="24.2824" y2="91.4654" width="0.1524" layer="16"/>
+<wire x1="40.5384" y1="72.5424" x2="40.658415625" y2="72.528996875" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$48">
+<contactref element="J6" pad="4"/>
+<contactref element="LS42" pad="1"/>
+<wire x1="29.4132" y1="93.8784" x2="24.384" y2="93.8784" width="0.1524" layer="16"/>
+<wire x1="31.242" y1="92.0496" x2="29.4132" y2="93.8784" width="0.1524" layer="16"/>
+<wire x1="24.384" y1="93.8784" x2="24.2824" y2="94.0054" width="0.1524" layer="16"/>
+<wire x1="31.242" y1="92.0496" x2="31.249928125" y2="91.9920375" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$49">
+<contactref element="J6" pad="2"/>
+<contactref element="LS41" pad="1"/>
+<wire x1="29.5656" y1="96.4692" x2="24.384" y2="96.4692" width="0.1524" layer="16"/>
+<wire x1="40.5384" y1="85.4964" x2="29.5656" y2="96.4692" width="0.1524" layer="16"/>
+<wire x1="40.5384" y1="84.582" x2="40.5384" y2="85.4964" width="0.1524" layer="16"/>
+<wire x1="24.384" y1="96.4692" x2="24.2824" y2="96.5454" width="0.1524" layer="16"/>
+<wire x1="40.5384" y1="84.582" x2="40.658415625" y2="84.534790625" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$50">
+<contactref element="J8" pad="16"/>
+<contactref element="LS64" pad="1"/>
+<wire x1="14.3256" y1="43.5864" x2="14.3256" y2="48.9204" width="0.1524" layer="16"/>
+<wire x1="36.7284" y1="21.1836" x2="14.3256" y2="43.5864" width="0.1524" layer="16"/>
+<wire x1="58.3692" y1="21.1836" x2="36.7284" y2="21.1836" width="0.1524" layer="16"/>
+<wire x1="62.0268" y1="24.8412" x2="58.3692" y2="21.1836" width="0.1524" layer="16"/>
+<wire x1="14.3256" y1="48.9204" x2="14.1986" y2="48.9712" width="0.1524" layer="16"/>
+<wire x1="62.0268" y1="24.8412" x2="62.17619375" y2="24.885196875" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$51">
+<contactref element="J8" pad="14"/>
+<contactref element="LS63" pad="1"/>
+<wire x1="14.3256" y1="50.4444" x2="14.3256" y2="51.5112" width="0.1524" layer="16"/>
+<wire x1="29.718" y1="35.052" x2="14.3256" y2="50.4444" width="0.1524" layer="16"/>
+<wire x1="29.718" y1="28.6512" x2="29.718" y2="35.052" width="0.1524" layer="16"/>
+<wire x1="36.8808" y1="21.4884" x2="29.718" y2="28.6512" width="0.1524" layer="16"/>
+<wire x1="57.15" y1="21.4884" x2="36.8808" y2="21.4884" width="0.1524" layer="16"/>
+<wire x1="61.722" y1="26.0604" x2="57.15" y2="21.4884" width="0.1524" layer="16"/>
+<wire x1="62.6364" y1="26.0604" x2="61.722" y2="26.0604" width="0.1524" layer="16"/>
+<wire x1="63.3984" y1="25.2984" x2="62.6364" y2="26.0604" width="0.1524" layer="16"/>
+<wire x1="63.3984" y1="13.716" x2="63.3984" y2="25.2984" width="0.1524" layer="16"/>
+<wire x1="62.1792" y1="12.4968" x2="63.3984" y2="13.716" width="0.1524" layer="16"/>
+<wire x1="14.3256" y1="51.5112" x2="14.1986" y2="51.5112" width="0.1524" layer="16"/>
+<wire x1="62.1792" y1="12.4968" x2="62.17619375" y2="12.3560125" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$52">
+<contactref element="J8" pad="12"/>
+<contactref element="LS62" pad="1"/>
+<wire x1="20.1168" y1="53.9496" x2="14.3256" y2="53.9496" width="0.1524" layer="16"/>
+<wire x1="21.336" y1="52.7304" x2="20.1168" y2="53.9496" width="0.1524" layer="16"/>
+<wire x1="21.336" y1="52.7304" x2="25.069525" y2="52.7304" width="0.1524" layer="16"/>
+<wire x1="45.1996625" y1="38.5572" x2="62.6364" y2="38.5572" width="0.1524" layer="16"/>
+<wire x1="63.3984" y1="37.7952" x2="62.6364" y2="38.5572" width="0.1524" layer="16"/>
+<wire x1="63.3984" y1="37.0332" x2="63.3984" y2="37.7952" width="0.1524" layer="16"/>
+<wire x1="57.6072" y1="31.242" x2="63.3984" y2="37.0332" width="0.1524" layer="16"/>
+<wire x1="52.578" y1="31.242" x2="57.6072" y2="31.242" width="0.1524" layer="16"/>
+<wire x1="51.3588" y1="30.0228" x2="52.578" y2="31.242" width="0.1524" layer="16"/>
+<wire x1="14.3256" y1="53.9496" x2="14.1986" y2="54.0512" width="0.1524" layer="16"/>
+<wire x1="51.3588" y1="30.0228" x2="51.30044375" y2="29.978059375" width="0.1524" layer="16"/>
+<wire x1="38.548915625" y1="35.70825625" x2="39.534828125" y2="34.72234375" width="0.1524" layer="16"/>
+<wire x1="38.548915625" y1="39.251009375" x2="38.548915625" y2="35.70825625" width="0.1524" layer="16"/>
+<wire x1="25.069525" y1="52.7304" x2="38.548915625" y2="39.251009375" width="0.1524" layer="16"/>
+<wire x1="39.534828125" y1="34.72234375" x2="41.36480625" y2="34.72234375" width="0.1524" layer="16"/>
+<wire x1="41.36480625" y1="34.72234375" x2="45.1996625" y2="38.5572" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$53">
+<contactref element="J8" pad="10"/>
+<contactref element="LS61" pad="1"/>
+<wire x1="14.1732" y1="55.626" x2="14.1732" y2="56.5404" width="0.1524" layer="16"/>
+<wire x1="12.954" y1="54.4068" x2="14.1732" y2="55.626" width="0.1524" layer="16"/>
+<wire x1="12.954" y1="44.5008" x2="12.954" y2="54.4068" width="0.1524" layer="16"/>
+<wire x1="39.1668" y1="18.288" x2="12.954" y2="44.5008" width="0.1524" layer="16"/>
+<wire x1="51.2064" y1="18.288" x2="39.1668" y2="18.288" width="0.1524" layer="16"/>
+<wire x1="14.1732" y1="56.5404" x2="14.1986" y2="56.5912" width="0.1524" layer="16"/>
+<wire x1="51.2064" y1="18.288" x2="51.30044375" y2="18.15335625" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$54">
+<contactref element="J8" pad="8"/>
+<contactref element="LS60" pad="1"/>
+<wire x1="14.3256" y1="59.7408" x2="14.3256" y2="59.1312" width="0.1524" layer="16"/>
+<wire x1="20.4216" y1="65.8368" x2="14.3256" y2="59.7408" width="0.1524" layer="16"/>
+<wire x1="20.4216" y1="89.3064" x2="20.4216" y2="65.8368" width="0.1524" layer="16"/>
+<wire x1="21.336" y1="90.2208" x2="20.4216" y2="89.3064" width="0.1524" layer="16"/>
+<wire x1="22.098" y1="90.2208" x2="21.336" y2="90.2208" width="0.1524" layer="16"/>
+<wire x1="23.0124" y1="91.1352" x2="22.098" y2="90.2208" width="0.1524" layer="16"/>
+<wire x1="23.0124" y1="91.8972" x2="23.0124" y2="91.1352" width="0.1524" layer="16"/>
+<wire x1="23.7744" y1="92.6592" x2="23.0124" y2="91.8972" width="0.1524" layer="16"/>
+<wire x1="24.6888" y1="92.6592" x2="23.7744" y2="92.6592" width="0.1524" layer="16"/>
+<wire x1="44.0436" y1="73.3044" x2="24.6888" y2="92.6592" width="0.1524" layer="16"/>
+<wire x1="44.0436" y1="69.7992" x2="44.0436" y2="73.3044" width="0.1524" layer="16"/>
+<wire x1="82.6008" y1="31.242" x2="44.0436" y2="69.7992" width="0.1524" layer="16"/>
+<wire x1="82.6008" y1="17.8308" x2="82.6008" y2="31.242" width="0.1524" layer="16"/>
+<wire x1="83.6676" y1="16.764" x2="82.6008" y2="17.8308" width="0.1524" layer="16"/>
+<wire x1="14.3256" y1="59.1312" x2="14.1986" y2="59.1312" width="0.1524" layer="16"/>
+<wire x1="83.6676" y1="16.764" x2="83.7478375" y2="16.714821875" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$55">
+<contactref element="J8" pad="6"/>
+<contactref element="LS59" pad="1"/>
+<wire x1="13.2588" y1="61.5696" x2="14.1732" y2="61.5696" width="0.1524" layer="16"/>
+<wire x1="12.0396" y1="60.3504" x2="13.2588" y2="61.5696" width="0.1524" layer="16"/>
+<wire x1="11.2776" y1="60.3504" x2="12.0396" y2="60.3504" width="0.1524" layer="16"/>
+<wire x1="10.2108" y1="59.2836" x2="11.2776" y2="60.3504" width="0.1524" layer="16"/>
+<wire x1="10.2108" y1="46.3296" x2="10.2108" y2="59.2836" width="0.1524" layer="16"/>
+<wire x1="46.9392" y1="9.6012" x2="10.2108" y2="46.3296" width="0.1524" layer="16"/>
+<wire x1="79.5528" y1="9.6012" x2="46.9392" y2="9.6012" width="0.1524" layer="16"/>
+<wire x1="83.6676" y1="5.4864" x2="79.5528" y2="9.6012" width="0.1524" layer="16"/>
+<wire x1="14.1732" y1="61.5696" x2="14.1986" y2="61.6712" width="0.1524" layer="16"/>
+<wire x1="83.6676" y1="5.4864" x2="83.7478375" y2="5.363840625" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$56">
+<contactref element="J8" pad="4"/>
+<contactref element="LS58" pad="1"/>
+<wire x1="14.3256" y1="63.246" x2="14.3256" y2="64.1604" width="0.1524" layer="16"/>
+<wire x1="15.3924" y1="62.1792" x2="14.3256" y2="63.246" width="0.1524" layer="16"/>
+<wire x1="15.3924" y1="61.2648" x2="15.3924" y2="62.1792" width="0.1524" layer="16"/>
+<wire x1="14.478" y1="60.3504" x2="15.3924" y2="61.2648" width="0.1524" layer="16"/>
+<wire x1="13.716" y1="60.3504" x2="14.478" y2="60.3504" width="0.1524" layer="16"/>
+<wire x1="12.8016" y1="59.436" x2="13.716" y2="60.3504" width="0.1524" layer="16"/>
+<wire x1="12.8016" y1="56.0832" x2="12.8016" y2="59.436" width="0.1524" layer="16"/>
+<wire x1="12.0396" y1="55.3212" x2="12.8016" y2="56.0832" width="0.1524" layer="16"/>
+<wire x1="11.2776" y1="55.3212" x2="12.0396" y2="55.3212" width="0.1524" layer="16"/>
+<wire x1="10.5156" y1="54.5592" x2="11.2776" y2="55.3212" width="0.1524" layer="16"/>
+<wire x1="10.5156" y1="46.482" x2="10.5156" y2="54.5592" width="0.1524" layer="16"/>
+<wire x1="45.8724" y1="11.1252" x2="10.5156" y2="46.482" width="0.1524" layer="16"/>
+<wire x1="64.3128" y1="11.1252" x2="45.8724" y2="11.1252" width="0.1524" layer="16"/>
+<wire x1="72.39" y1="19.2024" x2="64.3128" y2="11.1252" width="0.1524" layer="16"/>
+<wire x1="72.8472" y1="19.2024" x2="72.39" y2="19.2024" width="0.1524" layer="16"/>
+<wire x1="14.3256" y1="64.1604" x2="14.1986" y2="64.2112" width="0.1524" layer="16"/>
+<wire x1="72.8472" y1="19.2024" x2="72.959915625" y2="19.347878125" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$57">
+<contactref element="J8" pad="2"/>
+<contactref element="LS57" pad="1"/>
+<wire x1="14.1732" y1="65.8368" x2="14.1732" y2="66.7512" width="0.1524" layer="16"/>
+<wire x1="12.8016" y1="64.4652" x2="14.1732" y2="65.8368" width="0.1524" layer="16"/>
+<wire x1="12.8016" y1="63.7032" x2="12.8016" y2="64.4652" width="0.1524" layer="16"/>
+<wire x1="12.0396" y1="62.9412" x2="12.8016" y2="63.7032" width="0.1524" layer="16"/>
+<wire x1="11.2776" y1="62.9412" x2="12.0396" y2="62.9412" width="0.1524" layer="16"/>
+<wire x1="9.906" y1="61.5696" x2="11.2776" y2="62.9412" width="0.1524" layer="16"/>
+<wire x1="9.906" y1="46.1772" x2="9.906" y2="61.5696" width="0.1524" layer="16"/>
+<wire x1="46.7868" y1="9.2964" x2="9.906" y2="46.1772" width="0.1524" layer="16"/>
+<wire x1="70.7136" y1="9.2964" x2="46.7868" y2="9.2964" width="0.1524" layer="16"/>
+<wire x1="72.8472" y1="7.1628" x2="70.7136" y2="9.2964" width="0.1524" layer="16"/>
+<wire x1="14.1732" y1="66.7512" x2="14.1986" y2="66.7512" width="0.1524" layer="16"/>
+<wire x1="72.8472" y1="7.1628" x2="72.959915625" y2="7.157796875" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$58">
+<contactref element="J7" pad="16"/>
+<contactref element="LS56" pad="1"/>
+<wire x1="14.3256" y1="79.7052" x2="14.3256" y2="78.7908" width="0.1524" layer="16"/>
+<wire x1="15.6972" y1="81.0768" x2="14.3256" y2="79.7052" width="0.1524" layer="16"/>
+<wire x1="15.6972" y1="86.5632" x2="15.6972" y2="81.0768" width="0.1524" layer="16"/>
+<wire x1="14.6304" y1="87.63" x2="15.6972" y2="86.5632" width="0.1524" layer="16"/>
+<wire x1="13.8684" y1="87.63" x2="14.6304" y2="87.63" width="0.1524" layer="16"/>
+<wire x1="12.954" y1="88.5444" x2="13.8684" y2="87.63" width="0.1524" layer="16"/>
+<wire x1="12.954" y1="91.8972" x2="12.954" y2="88.5444" width="0.1524" layer="16"/>
+<wire x1="13.8684" y1="92.8116" x2="12.954" y2="91.8972" width="0.1524" layer="16"/>
+<wire x1="15.8496" y1="92.8116" x2="13.8684" y2="92.8116" width="0.1524" layer="16"/>
+<wire x1="21.0312" y1="97.9932" x2="15.8496" y2="92.8116" width="0.1524" layer="16"/>
+<wire x1="32.766" y1="97.9932" x2="21.0312" y2="97.9932" width="0.1524" layer="16"/>
+<wire x1="54.2544" y1="76.5048" x2="32.766" y2="97.9932" width="0.1524" layer="16"/>
+<wire x1="54.2544" y1="64.4652" x2="54.2544" y2="76.5048" width="0.1524" layer="16"/>
+<wire x1="72.8472" y1="45.8724" x2="54.2544" y2="64.4652" width="0.1524" layer="16"/>
+<wire x1="72.8472" y1="43.7388" x2="72.8472" y2="45.8724" width="0.1524" layer="16"/>
+<wire x1="14.3256" y1="78.7908" x2="14.1986" y2="78.74" width="0.1524" layer="16"/>
+<wire x1="72.8472" y1="43.7388" x2="72.959915625" y2="43.728040625" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$59">
+<contactref element="J7" pad="14"/>
+<contactref element="LS55" pad="1"/>
+<wire x1="13.2588" y1="81.3816" x2="14.1732" y2="81.3816" width="0.1524" layer="16"/>
+<wire x1="12.0396" y1="82.6008" x2="13.2588" y2="81.3816" width="0.1524" layer="16"/>
+<wire x1="11.2776" y1="82.6008" x2="12.0396" y2="82.6008" width="0.1524" layer="16"/>
+<wire x1="9.906" y1="83.9724" x2="11.2776" y2="82.6008" width="0.1524" layer="16"/>
+<wire x1="9.906" y1="96.9264" x2="9.906" y2="83.9724" width="0.1524" layer="16"/>
+<wire x1="12.192" y1="99.2124" x2="9.906" y2="96.9264" width="0.1524" layer="16"/>
+<wire x1="34.7472" y1="99.2124" x2="12.192" y2="99.2124" width="0.1524" layer="16"/>
+<wire x1="55.4736" y1="78.486" x2="34.7472" y2="99.2124" width="0.1524" layer="16"/>
+<wire x1="56.6928" y1="78.486" x2="55.4736" y2="78.486" width="0.1524" layer="16"/>
+<wire x1="70.7136" y1="64.4652" x2="56.6928" y2="78.486" width="0.1524" layer="16"/>
+<wire x1="70.7136" y1="56.5404" x2="70.7136" y2="64.4652" width="0.1524" layer="16"/>
+<wire x1="85.1916" y1="42.0624" x2="70.7136" y2="56.5404" width="0.1524" layer="16"/>
+<wire x1="85.1916" y1="16.4592" x2="85.1916" y2="42.0624" width="0.1524" layer="16"/>
+<wire x1="84.2772" y1="15.5448" x2="85.1916" y2="16.4592" width="0.1524" layer="16"/>
+<wire x1="83.2104" y1="15.5448" x2="84.2772" y2="15.5448" width="0.1524" layer="16"/>
+<wire x1="79.0956" y1="19.6596" x2="83.2104" y2="15.5448" width="0.1524" layer="16"/>
+<wire x1="79.0956" y1="25.2984" x2="79.0956" y2="19.6596" width="0.1524" layer="16"/>
+<wire x1="72.9996" y1="31.3944" x2="79.0956" y2="25.2984" width="0.1524" layer="16"/>
+<wire x1="14.1732" y1="81.3816" x2="14.1986" y2="81.28" width="0.1524" layer="16"/>
+<wire x1="72.9996" y1="31.3944" x2="72.959915625" y2="31.537959375" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$60">
+<contactref element="J7" pad="12"/>
+<contactref element="LS54" pad="1"/>
+<wire x1="14.1732" y1="84.7344" x2="14.1732" y2="83.82" width="0.1524" layer="16"/>
+<wire x1="12.8016" y1="86.106" x2="14.1732" y2="84.7344" width="0.1524" layer="16"/>
+<wire x1="12.8016" y1="86.868" x2="12.8016" y2="86.106" width="0.1524" layer="16"/>
+<wire x1="12.0396" y1="87.63" x2="12.8016" y2="86.868" width="0.1524" layer="16"/>
+<wire x1="11.2776" y1="87.63" x2="12.0396" y2="87.63" width="0.1524" layer="16"/>
+<wire x1="10.5156" y1="88.392" x2="11.2776" y2="87.63" width="0.1524" layer="16"/>
+<wire x1="10.5156" y1="94.488" x2="10.5156" y2="88.392" width="0.1524" layer="16"/>
+<wire x1="11.2776" y1="95.25" x2="10.5156" y2="94.488" width="0.1524" layer="16"/>
+<wire x1="12.0396" y1="95.25" x2="11.2776" y2="95.25" width="0.1524" layer="16"/>
+<wire x1="12.954" y1="96.1644" x2="12.0396" y2="95.25" width="0.1524" layer="16"/>
+<wire x1="12.954" y1="96.9264" x2="12.954" y2="96.1644" width="0.1524" layer="16"/>
+<wire x1="14.6304" y1="98.6028" x2="12.954" y2="96.9264" width="0.1524" layer="16"/>
+<wire x1="33.0708" y1="98.6028" x2="14.6304" y2="98.6028" width="0.1524" layer="16"/>
+<wire x1="54.864" y1="76.8096" x2="33.0708" y2="98.6028" width="0.1524" layer="16"/>
+<wire x1="54.864" y1="71.4756" x2="54.864" y2="76.8096" width="0.1524" layer="16"/>
+<wire x1="83.6676" y1="42.672" x2="54.864" y2="71.4756" width="0.1524" layer="16"/>
+<wire x1="83.6676" y1="39.4716" x2="83.6676" y2="42.672" width="0.1524" layer="16"/>
+<wire x1="14.1732" y1="83.82" x2="14.1986" y2="83.82" width="0.1524" layer="16"/>
+<wire x1="83.6676" y1="39.4716" x2="83.7478375" y2="39.416784375" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$61">
+<contactref element="J7" pad="10"/>
+<contactref element="LS53" pad="1"/>
+<wire x1="14.3256" y1="85.344" x2="14.3256" y2="86.2584" width="0.1524" layer="16"/>
+<wire x1="15.3924" y1="84.2772" x2="14.3256" y2="85.344" width="0.1524" layer="16"/>
+<wire x1="15.3924" y1="83.3628" x2="15.3924" y2="84.2772" width="0.1524" layer="16"/>
+<wire x1="14.6304" y1="82.6008" x2="15.3924" y2="83.3628" width="0.1524" layer="16"/>
+<wire x1="13.716" y1="82.6008" x2="14.6304" y2="82.6008" width="0.1524" layer="16"/>
+<wire x1="12.8016" y1="83.5152" x2="13.716" y2="82.6008" width="0.1524" layer="16"/>
+<wire x1="12.8016" y1="84.2772" x2="12.8016" y2="83.5152" width="0.1524" layer="16"/>
+<wire x1="11.8872" y1="85.1916" x2="12.8016" y2="84.2772" width="0.1524" layer="16"/>
+<wire x1="11.1252" y1="85.1916" x2="11.8872" y2="85.1916" width="0.1524" layer="16"/>
+<wire x1="10.2108" y1="86.106" x2="11.1252" y2="85.1916" width="0.1524" layer="16"/>
+<wire x1="10.2108" y1="96.774" x2="10.2108" y2="86.106" width="0.1524" layer="16"/>
+<wire x1="12.3444" y1="98.9076" x2="10.2108" y2="96.774" width="0.1524" layer="16"/>
+<wire x1="33.2232" y1="98.9076" x2="12.3444" y2="98.9076" width="0.1524" layer="16"/>
+<wire x1="55.1688" y1="76.962" x2="33.2232" y2="98.9076" width="0.1524" layer="16"/>
+<wire x1="55.1688" y1="71.628" x2="55.1688" y2="76.962" width="0.1524" layer="16"/>
+<wire x1="84.8868" y1="41.91" x2="55.1688" y2="71.628" width="0.1524" layer="16"/>
+<wire x1="84.8868" y1="29.2608" x2="84.8868" y2="41.91" width="0.1524" layer="16"/>
+<wire x1="83.82" y1="28.194" x2="84.8868" y2="29.2608" width="0.1524" layer="16"/>
+<wire x1="14.3256" y1="86.2584" x2="14.1986" y2="86.36" width="0.1524" layer="16"/>
+<wire x1="83.82" y1="28.194" x2="83.7478375" y2="28.065803125" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$62">
+<contactref element="J7" pad="8"/>
+<contactref element="LS52" pad="1"/>
+<wire x1="15.0876" y1="89.0016" x2="14.3256" y2="89.0016" width="0.1524" layer="16"/>
+<wire x1="21.336" y1="95.25" x2="15.0876" y2="89.0016" width="0.1524" layer="16"/>
+<wire x1="30.3276" y1="95.25" x2="21.336" y2="95.25" width="0.1524" layer="16"/>
+<wire x1="39.3192" y1="86.2584" x2="30.3276" y2="95.25" width="0.1524" layer="16"/>
+<wire x1="39.3192" y1="84.1248" x2="39.3192" y2="86.2584" width="0.1524" layer="16"/>
+<wire x1="46.0248" y1="77.4192" x2="39.3192" y2="84.1248" width="0.1524" layer="16"/>
+<wire x1="51.2064" y1="77.4192" x2="46.0248" y2="77.4192" width="0.1524" layer="16"/>
+<wire x1="14.3256" y1="89.0016" x2="14.1986" y2="88.9" width="0.1524" layer="16"/>
+<wire x1="51.2064" y1="77.4192" x2="51.30044375" y2="77.276871875" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$63">
+<contactref element="J7" pad="6"/>
+<contactref element="LS51" pad="1"/>
+<wire x1="14.9352" y1="91.44" x2="14.1986" y2="91.44" width="0.1524" layer="16"/>
+<wire x1="21.1836" y1="97.6884" x2="14.9352" y2="91.44" width="0.1524" layer="16"/>
+<wire x1="32.6136" y1="97.6884" x2="21.1836" y2="97.6884" width="0.1524" layer="16"/>
+<wire x1="52.578" y1="77.724" x2="32.6136" y2="97.6884" width="0.1524" layer="16"/>
+<wire x1="52.578" y1="66.7512" x2="52.578" y2="77.724" width="0.1524" layer="16"/>
+<wire x1="51.3588" y1="65.532" x2="52.578" y2="66.7512" width="0.1524" layer="16"/>
+<wire x1="51.3588" y1="65.532" x2="51.30044375" y2="65.45216875" width="0.1524" layer="16"/>
+</signal>
+<signal name="N$65">
+<contactref element="J7" pad="2"/>
+<contactref element="LS49" pad="1"/>
+<wire x1="19.2024" y1="96.6216" x2="14.3256" y2="96.6216" width="0.1524" layer="16"/>
+<wire x1="20.8788" y1="98.298" x2="19.2024" y2="96.6216" width="0.1524" layer="16"/>
+<wire x1="32.9184" y1="98.298" x2="20.8788" y2="98.298" width="0.1524" layer="16"/>
+<wire x1="54.5592" y1="76.6572" x2="32.9184" y2="98.298" width="0.1524" layer="16"/>
+<wire x1="54.5592" y1="69.9516" x2="54.5592" y2="76.6572" width="0.1524" layer="16"/>
+<wire x1="62.0268" y1="62.484" x2="54.5592" y2="69.9516" width="0.1524" layer="16"/>
+<wire x1="14.3256" y1="96.6216" x2="14.1986" y2="96.52" width="0.1524" layer="16"/>
+<wire x1="62.0268" y1="62.484" x2="62.17619375" y2="62.47275" width="0.1524" layer="16"/>
+</signal>
+</signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
+<errors>
+<approved hash="4,1,502e2579c2b88e86"/>
+<approved hash="4,1,b291fb9175c9a38e"/>
+</errors>
+</board>
+</drawing>
+</eagle>
