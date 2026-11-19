@@ -4789,7 +4789,7 @@ MonoBehaviour:
   - {fileID: 406022572}
   - {fileID: 265156793}
   SPEED_OF_SOUND: 346
-  sPortName: COM6
+  sPortName: COM3
 --- !u!114 &837447925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4804,6 +4804,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animScript: {fileID: 837447924}
   animDone: 1
+  m_MyText: {fileID: 0}
 --- !u!4 &837447926
 Transform:
   m_ObjectHideFlags: 0
@@ -9373,7 +9374,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1880073566}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.011000001, z: 0.048999947}
+  m_LocalPosition: {x: 0, y: 0.008, z: 0.05799993}
   m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_Children: []
   m_Father: {fileID: 1938169342}

@@ -5632,7 +5632,7 @@ MonoBehaviour:
   - {fileID: 846799190}
   - {fileID: 589652901}
   - {fileID: 693707363}
-  sPortName: COM6
+  sPortName: COM3
   SPEED_OF_SOUND: 351
   currentHz: 100
 --- !u!135 &659378701

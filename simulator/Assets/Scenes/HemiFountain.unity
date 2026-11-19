@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4366757, g: 0.48427194, b: 0.5645252, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3473,6 +3473,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animScript: {fileID: 835037018}
   animDone: 1
+  m_MyText: {fileID: 0}
 --- !u!114 &835037018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3551,7 +3552,7 @@ MonoBehaviour:
   - {fileID: 2120226956}
   - {fileID: 1593221773}
   SPEED_OF_SOUND: 346
-  sPortName: COM6
+  sPortName: COM3
 --- !u!4 &835037019
 Transform:
   m_ObjectHideFlags: 0
@@ -7456,7 +7457,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1758250578}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.013, z: 0.05799993}
+  m_LocalPosition: {x: 0, y: 2.3283064e-10, z: 0.055999935}
   m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_Children: []
   m_Father: {fileID: 2033622148}
